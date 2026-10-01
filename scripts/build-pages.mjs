@@ -74,7 +74,9 @@ const client = fs.readFileSync(path.join(rootDir, 'js', 'public.js'), 'utf8')
 fs.writeFileSync(path.join(docsDir, 'js', 'public.js'), client, 'utf8');
 
 fs.copyFileSync(path.join(rootDir, 'styles.css'), path.join(docsDir, 'styles.css'));
-fs.writeFileSync(path.join(docsDir, 'CNAME'), 'nexo-moviles.github.io\n', 'utf8');
+// Sin CNAME: la página se sirve en la URL del repositorio
+// (<usuario>.github.io/<repo>). Poner un dominio propio acá impediría que
+// GitHub la publique.
 
 const bytes = fs.readdirSync(docsDir, { recursive: true })
   .filter(name => fs.statSync(path.join(docsDir, name)).isFile())
