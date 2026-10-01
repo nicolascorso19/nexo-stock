@@ -20,7 +20,7 @@ echo.
 echo   Vas a ver un codigo de una sola vez. Copialo, pegalo en la
 echo   pagina que se abre, autoriza y volve aca.
 echo.
-"%GH%" auth login --web
+"%GH%" auth login --web --hostname github.com --git-protocol https --skip-ssh-key
 set "CODE=%ERRORLEVEL%"
 
 echo.
