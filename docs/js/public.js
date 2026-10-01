@@ -85,12 +85,17 @@
       // La foto de la tarjeta es la de la primera opción con stock; si no hay
       // ninguna, la primera de todas.
       const primera = familia.opciones.find(o => o.stockStatus !== 'AGOTADO') || familia.opciones[0];
+      const opciones = familia.opciones.map(o => ({ ...o, etiqueta: etiquetaDe(o, familia) }));
+      // Cuando ninguna opción tiene etiqueta que las distinga (todos "Único"),
+      // no se inventa una: las diferencia la foto.
+      const distintas = new Set(opciones.map(o => o.etiqueta).filter(e => e && e !== 'Único'));
       return {
         ...familia,
         capacidad: [...new Set(conPrecio)].join(' · '),
         portada: primera.images?.[0] || '',
         estado: sinStock ? 'AGOTADO' : 'DISPONIBLE',
-        opciones: familia.opciones.map(o => ({ ...o, etiqueta: etiquetaDe(o, familia) }))
+        opciones: distintas.size > 1 ? opciones : opciones.map(o => ({ ...o, etiqueta: '' })),
+        conColores: distintas.size > 1
       };
     }).sort((a, b) => {
       const ca = ORDEN_CATEGORIA[a.category] ?? 1;
@@ -109,9 +114,10 @@
     const status = STATUS[familia.estado] || STATUS.AGOTADO;
     const varios = familia.opciones.length > 1;
     const swatches = varios
-      ? `<ul class="public-swatches" aria-label="Colores disponibles">${familia.opciones.map(o =>
-        `<li title="${esc(o.etiqueta)}"><span class="sr-only">${esc(o.etiqueta)}</span></li>`).join('')}</ul>`
+      ? `<ul class="public-swatches" aria-label="Opciones disponibles">${familia.opciones.map(o =>
+        `<li title="${esc(o.etiqueta || familia.nombre)}"><span class="sr-only">${esc(o.etiqueta || familia.nombre)}</span></li>`).join('')}</ul>`
       : '';
+    const palabra = familia.conColores ? 'colores' : 'opciones';
     return `<article class="public-card${familia.estado === 'AGOTADO' ? ' public-card--out' : ''}">
       ${familia.portada ? `<div class="public-card-media"><img src="${esc(familia.portada)}" alt="${esc(familia.nombre)}" loading="lazy" /></div>` : ''}
       <div class="public-card-top">
@@ -122,8 +128,8 @@
       ${familia.capacidad ? `<p class="public-spec">${esc(familia.capacidad)}</p>` : ''}
       ${swatches}
       ${varios
-        ? `<button class="public-pick" type="button" data-family="${esc(familia.nombre)}">Ver ${familia.opciones.length} colores</button>`
-        : waLink(`${familia.nombre} ${familia.opciones[0].etiqueta}`)}
+        ? `<button class="public-pick" type="button" data-family="${esc(familia.nombre)}">Ver ${familia.opciones.length} ${palabra}</button>`
+        : waLink(`${familia.nombre} ${familia.opciones[0].etiqueta}`.trim())}
     </article>`;
   };
 
@@ -148,11 +154,11 @@
     dlg.querySelector('.public-dialog-body').innerHTML = `<ul class="public-options">${familia.opciones.map(o => {
       const status = STATUS[o.stockStatus] || STATUS.AGOTADO;
       const imagen = o.images?.[0] || '';
-      const nombre = `${familia.nombre} ${o.etiqueta}`;
+      const nombre = `${familia.nombre} ${o.etiqueta}`.trim();
       return `<li class="public-option">
         ${imagen ? `<img src="${esc(imagen)}" alt="" loading="lazy" />` : '<span class="public-option-sin-foto"></span>'}
         <div class="public-option-info">
-          <span class="public-option-name">${esc(o.etiqueta)}</span>
+          ${o.etiqueta ? `<span class="public-option-name">${esc(o.etiqueta)}</span>` : ''}
           <span class="public-stock ${status.className}">${esc(status.short)}</span>
         </div>
         ${waLink(nombre)}
