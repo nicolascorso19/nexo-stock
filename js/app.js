@@ -924,7 +924,11 @@
       if (!select) return;
       const current = select.value;
       const imeiUnit = compactQuery ? store.getState().units.find(unit => String(unit.imei).includes(compactQuery) || String(unit.serialNumber || '').toLowerCase().includes(query)) : null;
-      const matches = (product) => imeiUnit ? product.id === imeiUnit.productId : store.search(query).some((result) => result.id === product.id);
+      let found = query ? store.search(query) : store.getProducts();
+      if (!query && !imeiUnit) found = store.getProducts();
+      if (query && !imeiUnit && !found.length && /s$/i.test(query)) found = store.search(query.slice(0, -1));
+      const foundIds = new Set(found.map((result) => result.id));
+      const matches = (product) => imeiUnit ? product.id === imeiUnit.productId : foundIds.has(product.id);
       const products = store.getProducts().filter((product) => matches(product));
       select.innerHTML = '<option value="">Seleccionar producto</option>' + products.map((product) => `<option value="${product.id}">${esc(productName(product))} · ${esc(variantName(product))} — ${product.stock} en stock</option>`).join('');
       if (products.some((product) => String(product.id) === String(current))) select.value = current;

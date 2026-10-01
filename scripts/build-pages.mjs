@@ -62,11 +62,16 @@ fs.writeFileSync(
 );
 
 // La página existente, con la fuente de datos cambiada por el JSON local.
+// Version en los assets: sin esto un visitante que ya vino puede quedarse con el
+// JS y el CSS viejos hasta que expire la cache, y ver una pagina que no existe
+// mas (precios, agrupacion). Con el id del build cada version tiene su URL.
+const buildId = Date.now().toString(36);
 const page = fs.readFileSync(path.join(rootDir, 'public.html'), 'utf8')
   .replaceAll('href="/"', 'href="#catalogo"')
   .replaceAll('href="/public"', 'href="./"')
   .replace(/<a[^>]*href="#catalogo"[^>]*>\s*Acceso privado\s*<\/a>/g, '')
-  .replaceAll('<script src="js/public.js"></script>', '<script src="js/public.js"></script>\n    <noscript>NEXO Móviles · Córdoba Capital</noscript>');
+  .replace('href="styles.css"', `href="styles.css?v=${buildId}"`)
+  .replace('src="js/public.js"', `src="js/public.js?v=${buildId}"`);
 fs.writeFileSync(path.join(docsDir, 'index.html'), page, 'utf8');
 
 const client = fs.readFileSync(path.join(rootDir, 'js', 'public.js'), 'utf8')
