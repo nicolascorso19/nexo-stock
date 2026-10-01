@@ -26,7 +26,7 @@ function variantOptions(variants) {
 
 function productSummary(product) {
   const image = (product.images || [])[0] || (product.variants || []).flatMap((variant) => variant.images || [])[0];
-  const prices = (product.variants || []).map((variant) => Number(variant.price)).filter(Number.isFinite);
+  const prices = (product.variants || []).map((variant) => (variant.priceKnown === false ? null : Number(variant.price))).filter((value) => Number.isFinite(value) && value > 0);
   const from = prices.length ? Math.min(...prices) : null;
   const available = (product.variants || []).some((variant) => variant.availability !== 'OUT');
   return (
@@ -80,7 +80,7 @@ function breadcrumbMarkup(items) {
 /** Página de producto con contenido real: nombre, precio, stock, variantes y SKU. */
 export function renderProductPage({ product, related = [], seoTags, baseUrl }) {
   const variants = product.variants || [];
-  const prices = variants.map((variant) => Number(variant.price)).filter(Number.isFinite);
+  const prices = variants.map((variant) => (variant.priceKnown === false ? null : Number(variant.price))).filter((value) => Number.isFinite(value) && value > 0);
   const from = prices.length ? Math.min(...prices) : null;
   const gallery = [...new Set([...(product.images || []), ...variants.flatMap((variant) => variant.images || [])].filter(Boolean))];
   const highlights = Array.isArray(product.highlights) ? product.highlights : [];
