@@ -1,0 +1,87 @@
+services:
+  nexo-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nexo-stock-api:local
+    restart: unless-stopped
+    init: true
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_DIR: /app/data
+      COOKIE_SECURE: "${COOKIE_SECURE:-true}"
+      SEED_DEMO: "false"
+      COMMERCE_API_KEY_ID: "${COMMERCE_API_KEY_ID:-}"
+      COMMERCE_API_SECRET: "${COMMERCE_API_SECRET:-}"
+      COMMERCE_RESERVATION_TTL_SECONDS: "${COMMERCE_RESERVATION_TTL_SECONDS:-600}"
+      LOGIN_RATE_LIMIT: "${LOGIN_RATE_LIMIT:-10}"
+    volumes:
+      - nexo_data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  nexo-store:
+    build:
+      context: ./ecommerce
+      dockerfile: Dockerfile
+    image: nexo-store:local
+    restart: unless-stopped
+    init: true
+    depends_on:
+      nexo-api:
+        condition: service_healthy
+    ports:
+      - "${STORE_PORT:-4000}:4000"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 4000
+      PUBLIC_BASE_URL: ${STORE_PUBLIC_BASE_URL:-http://localhost:4000}
+      COOKIE_SECURE: "${STORE_COOKIE_SECURE:-true}"
+      STOCK_API_BASE_URL: http://nexo-api:3000
+      STOCK_API_KEY_ID: "${COMMERCE_API_KEY_ID:-}"
+      STOCK_API_SECRET: "${COMMERCE_API_SECRET:-}"
+      MERCADOPAGO_ENABLED: "${MERCADOPAGO_ENABLED:-false}"
+      MERCADOPAGO_ACCESS_TOKEN: "${MERCADOPAGO_ACCESS_TOKEN:-}"
+      MERCADOPAGO_WEBHOOK_SECRET: "${MERCADOPAGO_WEBHOOK_SECRET:-}"
+      STOCK_WEBHOOKS_ENABLED: "${STOCK_WEBHOOKS_ENABLED:-false}"
+      STOCK_WEBHOOK_URL: ${STORE_WEBHOOK_URL:-http://localhost:4000/api/integrations/stock/webhook}
+      STOCK_WEBHOOK_KEY_ID: "${COMMERCE_WEBHOOK_KEY_ID:-}"
+      STOCK_WEBHOOK_SECRET: "${COMMERCE_WEBHOOK_SECRET:-}"
+    volumes:
+      - nexo_store_data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  nexo_data:
+  nexo_store_data:

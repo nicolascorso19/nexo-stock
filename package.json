@@ -1,0 +1,33 @@
+{
+  "name": "nexo-stock-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API profesional para NEXO Móviles con Express y SQLite",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test --test-concurrency=1 \"tests/*.test.js\"",
+    "db:init": "node server/init-db.js",
+    "pages:build": "node scripts/build-pages.mjs",
+    "dev:seed": "node scripts/dev-fixture.js",
+    "dev:stack": "node scripts/dev-stack.js",
+    "admin:create": "node server/create-admin.js",
+    "dev:store": "node scripts/dev-store.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.10.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}

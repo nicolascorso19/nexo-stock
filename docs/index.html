@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f5f7" />
+  <meta name="description" content="Catálogo público de NEXO Móviles: stock disponible y precio de venta de cada variante publicada." />
+  <title>NEXO Móviles · Catálogo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="public-body">
+  <header class="public-nav">
+    <div class="public-nav-inner">
+      <a class="public-wordmark" href="./" data-public-name>NEXO</a>
+      <div class="public-nav-actions">
+        
+        <a class="public-pill public-pill--outline" href="#catalogo">Ver catálogo</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="public-mininav">
+    <div class="public-mininav-inner">
+      <p class="public-mininav-title">Catálogo <span data-public-location>· Cargando…</span></p>
+      <label class="public-search">
+        <span class="sr-only">Buscar en el catálogo</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="5" /><path d="M10.5 10.5 14 14" stroke-linecap="round" /></svg>
+        <input id="public-search" type="search" placeholder="Buscar marca, modelo o capacidad" autocomplete="off" />
+      </label>
+    </div>
+  </div>
+
+  <main>
+    <section class="public-hero">
+      <p class="public-kicker">Catálogo <span aria-hidden="true">·</span> <span data-public-location>Córdoba Capital</span></p>
+      <h1 data-public-name>NEXO Móviles</h1>
+      <p class="public-tagline">Disponibilidad real, precio de venta real.</p>
+      <p class="public-subline">Consultá el stock disponible y los precios configurados por el negocio.</p>
+      <div class="public-hero-actions">
+        <a class="public-pill public-pill--fill" href="#catalogo">Ver catálogo</a>
+        
+      </div>
+    </section>
+
+    <section class="public-catalog" id="catalogo">
+      <div class="public-catalog-head">
+        <p class="public-meta" id="public-meta">Consultando el catálogo…</p>
+        <ul class="public-legend">
+          <li><span class="public-dot public-dot--open"></span>Disponible</li>
+          <li><span class="public-dot public-dot--low"></span>Últimas unidades</li>
+          <li><span class="public-dot public-dot--out"></span>Agotado</li>
+        </ul>
+      </div>
+      <div id="public-catalog" class="public-grid"><p class="public-loading">Cargando catálogo…</p></div>
+    </section>
+
+    <section class="public-wash">
+      <div class="public-wash-inner">
+        <h2 data-public-name>NEXO Móviles</h2>
+        <p class="public-wash-place" data-public-location>Córdoba Capital</p>
+        <p class="public-wash-note">Precios de venta en dólares, sin conversión de moneda. El stock publicado descuenta las unidades reservadas.</p>
+        <div class="public-wash-actions">
+          <a class="public-pill public-pill--fill" href="#catalogo">Ver catálogo</a>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="public-foot">
+    <div class="public-foot-inner">
+      <div class="public-foot-col">
+        <h3>Catálogo</h3>
+        <ul id="public-foot-counts">
+          <li>Variantes publicadas <b>—</b></li>
+        </ul>
+      </div>
+      <div class="public-foot-col">
+        <h3>El local</h3>
+        <ul>
+          <li data-public-name>NEXO Móviles</li>
+          <li data-public-location>Córdoba Capital</li>
+        </ul>
+      </div>
+      <div class="public-foot-col">
+        <h3>Acceso</h3>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="public-fineprint">
+      <p>Catálogo de solo lectura: no publica costos, proveedores, clientes ni datos internos del negocio.</p>
+      <p id="public-updated">Última actualización: —</p>
+    </div>
+  </footer>
+
+  <script src="js/public.js"></script>
+    <noscript>NEXO Móviles · Córdoba Capital</noscript>
+</body>
+</html>

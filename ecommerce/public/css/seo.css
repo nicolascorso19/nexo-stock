@@ -1,0 +1,126 @@
+/*
+ * Estilos del HTML inicial renderizado por el servidor.
+ *
+ * El navegador hidrata y aplica styles.css (la interfaz completa). Estas reglas
+ * existen para que el contenido que llega sin JavaScript —o que rastrean los
+ * buscadores— se vea correctamente estructurado y legible.
+ */
+
+.seo-mode { background: var(--paper); }
+.seo-mode #app { max-width: var(--max); margin: 0 auto; padding: 0 20px 72px; }
+
+.seo-mode .breadcrumbs ol {
+  display: flex; flex-wrap: wrap; gap: 8px; list-style: none;
+  margin: 0 0 24px; padding: 20px 0 0; font-size: .82rem; color: var(--ink-soft);
+}
+.seo-mode .breadcrumbs li + li::before { content: '/'; margin-right: 8px; opacity: .5; }
+.seo-mode .breadcrumbs a:hover { text-decoration: underline; }
+
+/* Portada ------------------------------------------------------------------ */
+/* El HTML de servidor comparte tokens con la app: superficie clara, sin el
+   degradado oscuro que dejaba el texto branco sobre gradiente. */
+.seo-hero {
+  margin: 32px 0 40px; padding: 48px 36px; border-radius: var(--radius);
+  background: var(--surface-alt);
+  color: var(--ink);
+}
+.seo-eyebrow {
+  margin: 0 0 12px; font-size: .74rem; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-soft);
+}
+.seo-hero h1 { margin: 0 0 16px; font-size: clamp(1.8rem, 4.5vw, 2.7rem); line-height: 1.12; letter-spacing: -.022em; font-weight: 600; max-width: 20ch; }
+.seo-hero p { margin: 0 0 28px; max-width: 58ch; color: var(--ink-soft); font-size: 1.02rem; line-height: 1.6; }
+.seo-hero .btn { margin-right: 10px; margin-bottom: 10px; }
+.seo-hero-media { display: block; width: 100%; max-width: 560px; height: auto; margin-top: 28px; object-fit: contain; }
+
+.seo-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, minmax(0, 1fr))); gap: 14px; margin-bottom: 56px; }
+.seo-categories a {
+  display: flex; flex-direction: column; gap: 4px; padding: 18px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.seo-categories a:hover { border-color: var(--ink); }
+.seo-categories strong { font-size: 1rem; }
+.seo-categories span { font-size: .78rem; color: var(--ink-soft); }
+
+.seo-section { margin-bottom: 56px; }
+.seo-section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+.seo-section-head h2 { margin: 0; font-size: clamp(1.4rem, 3vw, 1.9rem); letter-spacing: -.02em; }
+.seo-section-head p { margin: 6px 0 0; color: var(--ink-soft); font-size: .92rem; }
+.seo-section-link { font-size: .88rem; font-weight: 600; color: var(--blue); }
+.seo-section-link:hover { text-decoration: underline; }
+
+/* Rejillas y tarjetas ------------------------------------------------------ */
+.seo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 20px; }
+.seo-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; }
+.seo-card-media { display: grid; place-items: center; aspect-ratio: 1; background: var(--surface-alt); }
+.seo-card-media img { width: 100%; height: 100%; object-fit: contain; }
+.seo-card-placeholder { display: block; width: 42%; aspect-ratio: 1; border-radius: 14px; background: rgba(0, 0, 0, .05); }
+.seo-card-body { display: flex; flex-direction: column; gap: 4px; padding: 16px; }
+.seo-card-brand { margin: 0; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.seo-card-title { margin: 0; font-size: 1rem; line-height: 1.35; }
+.seo-card-title a:hover { text-decoration: underline; }
+.seo-card-price { margin: 4px 0 0; font-size: 1.05rem; font-weight: 600; }
+.seo-card-stock { margin: 0; font-size: .78rem; color: var(--success); font-weight: 600; }
+.seo-card-stock.is-out { color: var(--danger); }
+
+/* Producto ----------------------------------------------------------------- */
+.seo-product { padding-top: 8px; }
+.seo-product-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+.seo-gallery { display: grid; gap: 12px; }
+.seo-gallery img { width: 100%; aspect-ratio: 1; object-fit: contain; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.seo-gallery-placeholder { aspect-ratio: 1; background: var(--surface-alt); border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.seo-product-brand { margin: 0 0 8px; font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+.seo-product h1 { margin: 0 0 14px; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.1; letter-spacing: -.03em; }
+.seo-product-description { margin: 0 0 22px; color: var(--ink-soft); line-height: 1.65; }
+.seo-product-price { margin: 0 0 6px; font-size: 1.9rem; font-weight: 700; letter-spacing: -.02em; }
+.seo-product-price-old { color: var(--ink-soft); font-size: 1.05rem; font-weight: 400; }
+.seo-badge { display: inline-block; padding: 3px 9px; border-radius: 999px; background: var(--coral); color: #fff; font-size: .74rem; font-weight: 700; vertical-align: middle; }
+.seo-product-stock { margin: 0 0 28px; color: var(--success); font-weight: 600; }
+.seo-subtitle { margin: 28px 0 12px; font-size: 1.05rem; }
+.seo-variants { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.seo-variant {
+  display: grid; grid-template-columns: 1fr auto auto; gap: 14px; align-items: center;
+  padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; font-size: .9rem;
+}
+.seo-variant-price { font-weight: 700; }
+.seo-variant-stock { font-size: .78rem; color: var(--success); }
+.seo-variant-stock.is-out { color: var(--danger); }
+.seo-highlights { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--ink-soft); }
+.seo-specs { margin: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.seo-specs > div { display: grid; grid-template-columns: 200px 1fr; gap: 16px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.seo-specs dt { color: var(--ink-soft); font-size: .88rem; }
+.seo-specs dd { margin: 0; font-size: .92rem; }
+.seo-sku { margin: 26px 0 0; font-size: .8rem; color: var(--ink-soft); }
+.seo-help { margin: 8px 0 0; font-size: .84rem; color: var(--ink-soft); }
+.seo-related { margin-top: 64px; }
+.seo-related h2 { margin: 0 0 22px; font-size: 1.5rem; }
+
+/* Catálogo, confianza y errores -------------------------------------------- */
+.seo-page-head { margin: 32px 0 30px; }
+.seo-page-head h1 { margin: 0 0 10px; font-size: clamp(1.7rem, 4vw, 2.4rem); letter-spacing: -.02em; }
+.seo-page-head p { margin: 0 0 6px; color: var(--ink-soft); }
+.seo-count { font-size: .84rem; }
+.seo-empty, .seo-notice, .seo-error {
+  padding: 40px 32px; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); text-align: center;
+}
+.seo-notice h1, .seo-error h1 { margin: 0 0 12px; font-size: 1.5rem; }
+.seo-notice p, .seo-error p { margin: 0 auto; max-width: 56ch; color: var(--ink-soft); line-height: 1.6; }
+.seo-error { margin-top: 64px; }
+.seo-error .btn { margin: 20px 6px 0; }
+
+.seo-trust { margin-top: 64px; }
+.seo-trust h2 { margin: 0 0 20px; font-size: 1.4rem; }
+.seo-trust ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.seo-trust li { display: grid; gap: 6px; padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.seo-trust strong { font-size: .98rem; }
+.seo-trust span { font-size: .86rem; color: var(--ink-soft); line-height: 1.55; }
+
+@media (max-width: 860px) {
+  .seo-mode #app { padding: 0 16px 56px; }
+  .seo-product-grid { grid-template-columns: 1fr; gap: 30px; }
+  .seo-hero { padding: 36px 24px; }
+  .seo-specs > div { grid-template-columns: 1fr; gap: 2px; }
+  .seo-variant { grid-template-columns: 1fr auto; }
+  .seo-variant-stock { grid-column: 1 / -1; }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.tmp/
+data/
+backups/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.env
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+
+# Skills de agentes: se reinstalan con `npx.cmd skills add`, no son del proyecto.
+.agents/

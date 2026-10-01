@@ -1,0 +1,95 @@
+{
+  "source": "https://www.iphonestorecordoba.com.ar",
+  "downloadedAt": "2026-09-28T23:50:58.141Z",
+  "models": [
+    {
+      "model": "IPhone 17 Pro Max",
+      "slug": "iphone-17-pro-max",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17-pro-max",
+      "main": "/public-assets/iphonestore/iphone-17-pro-max.png",
+      "gallery": [],
+      "mainBytes": 202367
+    },
+    {
+      "model": "IPhone 17 Pro",
+      "slug": "iphone-17-pro",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17-pro",
+      "main": "/public-assets/iphonestore/iphone-17-pro.png",
+      "gallery": [],
+      "mainBytes": 168091
+    },
+    {
+      "model": "IPhone 16e",
+      "slug": "iphone-16e",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-16e",
+      "main": "/public-assets/iphonestore/iphone-16e.png",
+      "gallery": [],
+      "mainBytes": 122299
+    },
+    {
+      "model": "IPhone 17",
+      "slug": "iphone-17",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17",
+      "main": "/public-assets/iphonestore/iphone-17.png",
+      "gallery": [],
+      "mainBytes": 167614
+    },
+    {
+      "model": "IPhone 15 Pro Max",
+      "slug": "iphone-15-pro-max",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-15-pro-max",
+      "main": "/public-assets/iphonestore/iphone-15-pro-max.png",
+      "gallery": [
+        "/public-assets/iphonestore/iphone-15-pro-max-detail-01.jpg",
+        "/public-assets/iphonestore/iphone-15-pro-max-detail-02.jpg",
+        "/public-assets/iphonestore/iphone-15-pro-max-detail-03.jpg",
+        "/public-assets/iphonestore/iphone-15-pro-max-detail-04.jpg"
+      ],
+      "mainBytes": 156372
+    },
+    {
+      "model": "IPhone 15",
+      "slug": "iphone-15",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-15",
+      "main": "/public-assets/iphonestore/iphone-15.png",
+      "gallery": [
+        "/public-assets/iphonestore/iphone-15-detail-01.png",
+        "/public-assets/iphonestore/iphone-15-detail-02.png"
+      ],
+      "mainBytes": 135685
+    },
+    {
+      "model": "IPhone 14",
+      "slug": "iphone-14",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-14",
+      "main": "/public-assets/iphonestore/iphone-14.png",
+      "gallery": [
+        "/public-assets/iphonestore/iphone-14-detail-01.jpg",
+        "/public-assets/iphonestore/iphone-14-detail-02.png",
+        "/public-assets/iphonestore/iphone-14-detail-03.jpg"
+      ],
+      "mainBytes": 139508
+    },
+    {
+      "model": "IPhone 13",
+      "slug": "iphone-13",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-13",
+      "main": "/public-assets/iphonestore/iphone-13.png",
+      "gallery": [],
+      "mainBytes": 160736
+    },
+    {
+      "model": "IPhone 11",
+      "slug": "iphone-11",
+      "source": "https://www.iphonestorecordoba.com.ar/iphone/iphone-11",
+      "main": "/public-assets/iphonestore/iphone-11.jpg",
+      "gallery": [
+        "/public-assets/iphonestore/iphone-11-detail-01.jpg",
+        "/public-assets/iphonestore/iphone-11-detail-02.jpg",
+        "/public-assets/iphonestore/iphone-11-detail-03.jpg",
+        "/public-assets/iphonestore/iphone-11-detail-04.jpg"
+      ],
+      "mainBytes": 23664
+    }
+  ]
+}

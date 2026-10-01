@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional de Nicolás Corso - Ejecutivo de Ventas | Técnico en Telecomunicaciones" />
+  <title>Nicolás Corso | Ejecutivo de Ventas & Técnico en Telecomunicaciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #fafafa;
+      --fg: #1a1a2e;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --card-bg: #ffffff;
+      --border: #e5e7eb;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.1);
+      --radius: 16px;
+      --transition: 0.3s ease;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f1a;
+        --fg: #f1f5f9;
+        --muted: #94a3b8;
+        --accent: #3b82f6;
+        --accent-hover: #60a5fa;
+        --card-bg: #1e1e2e;
+        --border: #334155;
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        --shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.4);
+      }
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.5rem;
+      line-height: 1.6;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+
+    .profile-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3rem 2.5rem;
+      box-shadow: var(--shadow);
+      transition: box-shadow var(--transition), border-color var(--transition);
+    }
+
+    .profile-card:hover {
+      box-shadow: var(--shadow-hover);
+      border-color: var(--accent);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent);
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 16px rgba(37, 99, 235, 0.2);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .avatar:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 24px rgba(37, 99, 235, 0.3);
+    }
+
+    .avatar-placeholder {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: white;
+      margin: 0 auto 1.5rem;
+      box-shadow: 0 4px 16px rgba(37, 99, 235, 0.2);
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: var(--fg);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem 1.5rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    .contact-info a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+
+    .contact-info a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--fg);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    .section-content {
+      color: var(--fg);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .experience-item,
+    .education-item {
+      margin-bottom: 1.5rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--border);
+    }
+
+    .experience-item:last-child,
+    .education-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.375rem;
+    }
+
+    .item-title {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--fg);
+    }
+
+    .item-period {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .item-company {
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .item-description {
+      font-size: 0.9rem;
+      color: var(--fg);
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill-tag {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--fg);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all var(--transition);
+    }
+
+    .skill-tag:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.875rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 0.875rem 1.5rem;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--transition);
+      border: 1px solid transparent;
+    }
+
+    .social-btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .social-btn svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    /* Instagram */
+    .btn-instagram {
+      background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      color: white;
+      border-color: transparent;
+    }
+
+    .btn-instagram:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(220, 39, 67, 0.4);
+    }
+
+    /* WhatsApp */
+    .btn-whatsapp {
+      background: #25d366;
+      color: white;
+      border-color: transparent;
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+    }
+
+    /* Email */
+    .btn-email {
+      background: var(--card-bg);
+      color: var(--fg);
+      border-color: var(--border);
+    }
+
+    .btn-email:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+    }
+
+    /* Extra button */
+    .btn-extra {
+      background: var(--card-bg);
+      color: var(--fg);
+      border-color: var(--border);
+    }
+
+    .btn-extra:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+    }
+
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      .profile-card {
+        padding: 2rem 1.5rem;
+      }
+
+      .avatar,
+      .avatar-placeholder {
+        width: 100px;
+        height: 100px;
+      }
+
+      .avatar-placeholder {
+        font-size: 2rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <article class="profile-card">
+      <!-- Foto de perfil -->
+      <img
+        src="foto.jpg"
+        alt="Foto de Nicolás Corso"
+        class="avatar"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      />
+      <div class="avatar-placeholder" style="display: none;" aria-hidden="true">NC</div>
+
+      <header class="header">
+        <h1>Nicolás Corso</h1>
+        <p class="subtitle">Ejecutivo de Ventas | Técnico en Telecomunicaciones</p>
+        <div class="contact-info">
+          <a href="tel:+5493517507501">📞 +54 9 351 750 7501</a>
+          <a href="mailto:nicolascorso19@gmail.com">✉️ nicolascorso19@gmail.com</a>
+          <span>📍 Córdoba Capital, Argentina</span>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2 class="section-title">Mi Perfil</h2>
+        <div class="section-content">
+          Perfil comercial con sólida experiencia en asesoramiento consultivo, ventas estratégicas y fidelización de cuentas. Gracias a mi formación técnica y en marketing, aporto capacidad analítica para gestionar zonas comerciales y comunicar propuestas de valor con precisión. Profesional disciplinado, orientado a objetivos y enfocado en construir relaciones de confianza a largo plazo.
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">Ejecutivo de Ventas</span>
+            <span class="item-period">Marzo 2026 – Actualidad</span>
+          </div>
+          <div class="item-company">Iplan</div>
+          <div class="item-description">
+            Prospección activa de clientes y cierre de ventas para servicios corporativos y hogar de conectividad. Diseño de propuestas comerciales a medida según las necesidades del cliente. Cumplimiento y superación de métricas de ventas mensuales.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">Atención al Cliente</span>
+            <span class="item-period">Nov 2023 – Jun 2025</span>
+          </div>
+          <div class="item-company">Vinoteca (Drinks)</div>
+          <div class="item-description">
+            Atención personalizada a los clientes. Gestión de la caja y medios de pago. Control de stock, reposición del local.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="item-header">
+            <span class="item-title">Entrenador Infantil</span>
+            <span class="item-period">Mar 2022 – Actualidad</span>
+          </div>
+          <div class="item-company">Jockey Club Córdoba</div>
+          <div class="item-description">
+            Coordinación y entrenamiento de equipos infantiles. Desarrollo de habilidades técnicas y valores deportivos.
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Educación</h2>
+        
+        <div class="education-item">
+          <div class="item-header">
+            <span class="item-title">Tecnicatura en Telecomunicaciones</span>
+            <span class="item-period">Graduado 2025</span>
+          </div>
+          <div class="item-company">Universidad Siglo 21</div>
+          <div class="item-description">
+            Formación técnica en redes, servicios de telecomunicaciones y administración de sistemas.
+          </div>
+        </div>
+
+        <div class="education-item">
+          <div class="item-header">
+            <span class="item-title">Marketing Digital, E-commerce y Diseño Digital</span>
+            <span class="item-period">En curso – 2026</span>
+          </div>
+          <div class="item-company">Universidad Nacional de Córdoba</div>
+          <div class="item-description">
+            Formación en estrategias de marketing online, gestión de ventas digitales y diseño para entornos digitales.
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Herramientas y Habilidades</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Ventas consultivas</span>
+          <span class="skill-tag">Negociación</span>
+          <span class="skill-tag">Prospección de clientes</span>
+          <span class="skill-tag">Atención al cliente</span>
+          <span class="skill-tag">Gestión por objetivos</span>
+          <span class="skill-tag">Conectividad y redes</span>
+          <span class="skill-tag">Paquete Office</span>
+          <span class="skill-tag">Google Workspace (Drive, Sheets, Docs)</span>
+          <span class="skill-tag">Trabajo en equipo</span>
+          <span class="skill-tag">Alta adaptabilidad</span>
+          <span class="skill-tag">Orientación a resultados</span>
+          <span class="skill-tag">Comunicación efectiva</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Idiomas</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Inglés: Básico</span>
+        </div>
+      </section>
+
+      <nav class="social-links" aria-label="Contacto y redes sociales">
+        <a
+          href="https://instagram.com/nico.corsoo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-btn btn-instagram"
+          aria-label="Instagram: @nico.corsoo"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>Instagram</span>
+        </a>
+
+        <a
+          href="https://wa.me/5493517507501"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-btn btn-whatsapp"
+          aria-label="WhatsApp: +54 9 351 750 7501"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.472.099-.174.05-.372-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.333.148.67.148 1.043.074.372-.075.678-.224.868-.348.188-.124.332-.265.458-.41.278-.277.242-.652.17-.837-.05-.185-.149-.344-.3-.458-.316-.26-.868-.868-1.146-1.25-.238-.325-.353-.62-.279-.822.07-.198.27-.34.5-.442.364-.163.93-.146 1.324.136.444.304.817.743 1.036 1.12.232.405.142.824-.003 1.012-.148.198-.636.82-1.173 1.275-.495.416-.906.854-1.137 1.178-.173.238-.173.536 0 .726.15.198.3.398.57.527.198.099.613.097.823-.137.242-.27.357-.682.357-1.093 0-.353-.15-.68-.43-.983z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <a
+          href="mailto:nicolascorso19@gmail.com"
+          class="social-btn btn-email"
+          aria-label="Email: nicolascorso19@gmail.com"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Email</span>
+        </a>
+
+        <a
+          href="#"
+          class="social-btn btn-extra"
+          aria-label="Enlace adicional (pendiente)"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+          <span>Próximamente</span>
+        </a>
+      </nav>
+
+      <p class="footer-note">Hecho con cariño · Listo para Chrome</p>
+    </article>
+  </div>
+</body>
+</html>
