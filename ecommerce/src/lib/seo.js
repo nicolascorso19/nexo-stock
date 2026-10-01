@@ -67,7 +67,8 @@ export function breadcrumbJsonLd(items) {
  * bajo del producto, lo que refleja el precio real que ve el cliente.
  */
 export function productJsonLd({ product, baseUrl, url, images = [] }) {
-  const variants = (product.variants || []).filter((variant) => Number.isFinite(Number(variant.price)) && variant.priceKnown !== false);
+  const variants = (product.variants || []).filter((variant) => variant.priceKnown !== false
+    && Number.isFinite(Number(variant.price)) && Number(variant.price) > 0);
   const prices = variants.map((variant) => Number(variant.price));
   const lowest = prices.length ? Math.min(...prices) : null;
   const inStock = variants.some((variant) => variant.availability !== 'OUT');
@@ -93,7 +94,9 @@ export function productJsonLd({ product, baseUrl, url, images = [] }) {
   };
 
   if (lowest === null) {
-    node.offers = { '@type': 'Offer', url, priceCurrency: CURRENCY, availability: 'https://schema.org/OutOfStock', price: '0.00', priceValidUntil: priceValidUntil() };
+    // Sin precio de venta registrado no se publica `offers`: announcing 0 le
+    // diría al buscador que el producto se vende gratis.
+    node.offers = { '@type': 'Offer', url, availability: 'https://schema.org/OutOfStock', priceValidUntil: priceValidUntil() };
     return node;
   }
 

@@ -19,7 +19,7 @@ function availabilityLabel(availability, quantity) {
 function variantOptions(variants) {
   return variants.map((variant) => (
     `<li class="seo-variant"><span>${escapeHtml([variant.capacity, variant.color].filter(Boolean).join(' ') || 'Estándar')}</span>` +
-    `<span class="seo-variant-price">US$ ${money(variant.price)}</span>` +
+    `<span class="seo-variant-price">${variant.priceKnown === false || !(Number(variant.price) > 0) ? 'Consultar' : `US$ ${money(variant.price)}`}</span>` +
     `<span class="seo-variant-stock${variant.availability === 'OUT' ? ' is-out' : ''}">${escapeHtml(availabilityLabel(variant.availability, variant.availableQuantity))}</span></li>`
   )).join('');
 }
