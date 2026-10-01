@@ -19,7 +19,7 @@ export function apiRoutes(db, config) {
   const router = Router();
   const authenticate = authMiddleware(db, config);
   router.use(healthRoutes(db));
-  router.get('/public/catalog', (_request, response) => response.json({ data: publicCatalog(db) }));
+  router.get('/public/catalog', (_request, response) => response.json({ data: publicCatalog(db, config) }));
   router.use('/integrations/store', commerceRoutes(db, config));
   router.use(authRoutes(db, config));
   router.use((request, response, next) => (

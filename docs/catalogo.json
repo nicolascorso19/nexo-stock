@@ -3,9 +3,10 @@
     "business": {
       "name": "NEXO Móviles",
       "location": "Córdoba Capital",
-      "currency": "USD"
+      "currency": "USD",
+      "whatsapp": "543517507501"
     },
-    "generatedAt": "2026-10-01T01:49:18.788Z",
+    "generatedAt": "2026-10-01T02:10:26.969Z",
     "products": [
       {
         "id": "p0",
@@ -2150,15 +2151,15 @@
       {
         "id": "p107",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "128 gb",
-        "capacity": "128 gb",
-        "color": "",
+        "model": "iPhone 13",
+        "variant": "Blue",
+        "capacity": "",
+        "color": "Blue",
         "category": "Celulares",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/store-iphone-11.jpg"
+          "assets/store-iphone-13.png"
         ],
         "availabilityStatus": "DISCONTINUED",
         "requiresImei": true,
@@ -2170,15 +2171,15 @@
       {
         "id": "p108",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "64 gb",
-        "capacity": "64 Gb",
-        "color": "",
+        "model": "iPhone 13",
+        "variant": "Midnight",
+        "capacity": "",
+        "color": "Midnight",
         "category": "Celulares",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/store-iphone-11.jpg"
+          "assets/store-iphone-13.png"
         ],
         "availabilityStatus": "DISCONTINUED",
         "requiresImei": true,
@@ -2190,15 +2191,15 @@
       {
         "id": "p109",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "Black",
+        "model": "iPhone 13",
+        "variant": "Pink",
         "capacity": "",
-        "color": "Black",
+        "color": "Pink",
         "category": "Celulares",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/store-iphone-11.jpg"
+          "assets/store-iphone-13.png"
         ],
         "availabilityStatus": "DISCONTINUED",
         "requiresImei": true,
@@ -2210,15 +2211,15 @@
       {
         "id": "p110",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "Green",
+        "model": "iPhone 13",
+        "variant": "Red",
         "capacity": "",
-        "color": "Green",
+        "color": "Red",
         "category": "Celulares",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/store-iphone-11.jpg"
+          "assets/store-iphone-13.png"
         ],
         "availabilityStatus": "DISCONTINUED",
         "requiresImei": true,
@@ -2230,15 +2231,15 @@
       {
         "id": "p111",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "Purple",
+        "model": "iPhone 13",
+        "variant": "Starlight",
         "capacity": "",
-        "color": "Purple",
+        "color": "Starlight",
         "category": "Celulares",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/store-iphone-11.jpg"
+          "assets/store-iphone-13.png"
         ],
         "availabilityStatus": "DISCONTINUED",
         "requiresImei": true,
@@ -2250,166 +2251,6 @@
       {
         "id": "p112",
         "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "Red",
-        "capacity": "",
-        "color": "Red",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-11.jpg"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p113",
-        "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "White",
-        "capacity": "",
-        "color": "White",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-11.jpg"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p114",
-        "brand": "Apple",
-        "model": "iPhone 11",
-        "variant": "Yellow",
-        "capacity": "",
-        "color": "",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-11.jpg"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p115",
-        "brand": "Apple",
-        "model": "iPhone 13",
-        "variant": "Blue",
-        "capacity": "",
-        "color": "Blue",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-13.png"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p116",
-        "brand": "Apple",
-        "model": "iPhone 13",
-        "variant": "Midnight",
-        "capacity": "",
-        "color": "Midnight",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-13.png"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p117",
-        "brand": "Apple",
-        "model": "iPhone 13",
-        "variant": "Pink",
-        "capacity": "",
-        "color": "Pink",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-13.png"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p118",
-        "brand": "Apple",
-        "model": "iPhone 13",
-        "variant": "Red",
-        "capacity": "",
-        "color": "Red",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-13.png"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p119",
-        "brand": "Apple",
-        "model": "iPhone 13",
-        "variant": "Starlight",
-        "capacity": "",
-        "color": "Starlight",
-        "category": "Celulares",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/store-iphone-13.png"
-        ],
-        "availabilityStatus": "DISCONTINUED",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p120",
-        "brand": "Apple",
         "model": "iPhone 14",
         "variant": "128 gb",
         "capacity": "128 gb",
@@ -2428,7 +2269,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p121",
+        "id": "p113",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "256 gb",
@@ -2448,7 +2289,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p122",
+        "id": "p114",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "Blue",
@@ -2468,7 +2309,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p123",
+        "id": "p115",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "Midnight",
@@ -2488,7 +2329,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p124",
+        "id": "p116",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "Purple",
@@ -2508,7 +2349,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p125",
+        "id": "p117",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "Red",
@@ -2528,7 +2369,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p126",
+        "id": "p118",
         "brand": "Apple",
         "model": "iPhone 14",
         "variant": "Starlight",
@@ -2548,7 +2389,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p127",
+        "id": "p119",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "128 gb",
@@ -2568,7 +2409,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p128",
+        "id": "p120",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "256 gb",
@@ -2588,7 +2429,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p129",
+        "id": "p121",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "Blue",
@@ -2608,7 +2449,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p130",
+        "id": "p122",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "Green",
@@ -2628,7 +2469,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p131",
+        "id": "p123",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "Midnight",
@@ -2648,7 +2489,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p132",
+        "id": "p124",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "Pink",
@@ -2668,7 +2509,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p133",
+        "id": "p125",
         "brand": "Apple",
         "model": "iPhone 15",
         "variant": "Yellow",
@@ -2688,7 +2529,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p134",
+        "id": "p126",
         "brand": "Genérico",
         "model": "iPhone 15 Celeste",
         "variant": "Estándar",
@@ -2708,7 +2549,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p135",
+        "id": "p127",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "256 gb",
@@ -2728,7 +2569,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p136",
+        "id": "p128",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "512 gb",
@@ -2748,7 +2589,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p137",
+        "id": "p129",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "Titanio azul",
@@ -2768,7 +2609,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p138",
+        "id": "p130",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "Titanio blanco",
@@ -2788,7 +2629,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p139",
+        "id": "p131",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "Titanio natural",
@@ -2808,7 +2649,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p140",
+        "id": "p132",
         "brand": "Apple",
         "model": "iPhone 15 Pro Max",
         "variant": "Titanio negro",
@@ -2828,7 +2669,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p141",
+        "id": "p133",
         "brand": "Genérico",
         "model": "iPhone 15 Pro Turquesa",
         "variant": "Estándar",
@@ -2848,7 +2689,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p142",
+        "id": "p134",
         "brand": "Apple",
         "model": "iPhone 16e",
         "variant": "256gb",
@@ -2868,7 +2709,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p143",
+        "id": "p135",
         "brand": "Apple",
         "model": "iPhone 17",
         "variant": "256gb",
@@ -2888,7 +2729,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p144",
+        "id": "p136",
         "brand": "Apple",
         "model": "iPhone 17 Pro",
         "variant": "256gb",
@@ -2908,7 +2749,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p145",
+        "id": "p137",
         "brand": "Apple",
         "model": "iPhone 17 Pro",
         "variant": "512gb",
@@ -2928,7 +2769,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p146",
+        "id": "p138",
         "brand": "Apple",
         "model": "iPhone 17 Pro Max",
         "variant": "256gb",
@@ -2948,7 +2789,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p147",
+        "id": "p139",
         "brand": "Apple",
         "model": "iPhone 17 Pro Max",
         "variant": "512gb",
@@ -2968,7 +2809,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p148",
+        "id": "p140",
         "brand": "Genérico",
         "model": "JBL GO 3",
         "variant": "Negro",
@@ -2988,7 +2829,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p149",
+        "id": "p141",
         "brand": "Genérico",
         "model": "JBL GO 3",
         "variant": "Rojo",
@@ -3008,7 +2849,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p150",
+        "id": "p142",
         "brand": "Apple",
         "model": "MacBook Air M1",
         "variant": "256gb 16gb RAM",
@@ -3028,7 +2869,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p151",
+        "id": "p143",
         "brand": "Apple",
         "model": "MacBook Air M1",
         "variant": "256gb 8gb RAM",
@@ -3039,6 +2880,166 @@
         "location": "",
         "images": [
           "assets/macbook-air-m1-1-94c25f7549.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p144",
+        "brand": "Apple",
+        "model": "MacBook Air M1",
+        "variant": "512gb 16gb RAM",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-air-m1-1-94c25f7549.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p145",
+        "brand": "Apple",
+        "model": "MacBook Air M1",
+        "variant": "512gb 8gb RAM",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-air-m1-1-94c25f7549.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p146",
+        "brand": "Apple",
+        "model": "MacBook Air M1",
+        "variant": "Silver",
+        "capacity": "",
+        "color": "Silver",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-air-m1-1-94c25f7549.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p147",
+        "brand": "Apple",
+        "model": "MacBook Air M1",
+        "variant": "Space Gray",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-air-m1-1-94c25f7549.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p148",
+        "brand": "Apple",
+        "model": "MacBook Pro M1",
+        "variant": "256gb 8gb RAM",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-pro-m1-1-0452882fa0.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p149",
+        "brand": "Apple",
+        "model": "MacBook Pro M1",
+        "variant": "512gb 16gb RAM",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-pro-m1-1-0452882fa0.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p150",
+        "brand": "Apple",
+        "model": "MacBook Pro M1",
+        "variant": "512gb 8gb RAM",
+        "capacity": "",
+        "color": "",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-pro-m1-1-0452882fa0.png"
+        ],
+        "availabilityStatus": "CURRENT",
+        "requiresImei": true,
+        "price": null,
+        "priceKnown": false,
+        "promoPrice": null,
+        "stockStatus": "AGOTADO"
+      },
+      {
+        "id": "p151",
+        "brand": "Apple",
+        "model": "MacBook Pro M1",
+        "variant": "Silver",
+        "capacity": "",
+        "color": "Silver",
+        "category": "Notebooks",
+        "condition": "Nuevo",
+        "location": "",
+        "images": [
+          "assets/macbook-pro-m1-1-0452882fa0.png"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3050,15 +3051,15 @@
       {
         "id": "p152",
         "brand": "Apple",
-        "model": "MacBook Air M1",
-        "variant": "512gb 16gb RAM",
+        "model": "MacBook Pro M1",
+        "variant": "Space Gray",
         "capacity": "",
         "color": "",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-air-m1-1-94c25f7549.png"
+          "assets/macbook-pro-m1-1-0452882fa0.png"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3070,15 +3071,15 @@
       {
         "id": "p153",
         "brand": "Apple",
-        "model": "MacBook Air M1",
-        "variant": "512gb 8gb RAM",
+        "model": "MacBook PRO M2",
+        "variant": "256gb 8gb RAM",
         "capacity": "",
         "color": "",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-air-m1-1-94c25f7549.png"
+          "assets/macbook-pro-m2-1-76f27649eb.jpg"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3090,15 +3091,15 @@
       {
         "id": "p154",
         "brand": "Apple",
-        "model": "MacBook Air M1",
-        "variant": "Silver",
+        "model": "MacBook PRO M2",
+        "variant": "512gb 16gb RAM",
         "capacity": "",
-        "color": "Silver",
+        "color": "",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-air-m1-1-94c25f7549.png"
+          "assets/macbook-pro-m2-1-76f27649eb.jpg"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3110,15 +3111,15 @@
       {
         "id": "p155",
         "brand": "Apple",
-        "model": "MacBook Air M1",
-        "variant": "Space Gray",
+        "model": "MacBook PRO M2",
+        "variant": "512gb 8gb RAM",
         "capacity": "",
         "color": "",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-air-m1-1-94c25f7549.png"
+          "assets/macbook-pro-m2-1-76f27649eb.jpg"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3130,15 +3131,15 @@
       {
         "id": "p156",
         "brand": "Apple",
-        "model": "MacBook Pro M1",
-        "variant": "256gb 8gb RAM",
+        "model": "MacBook PRO M2",
+        "variant": "Silver",
         "capacity": "",
-        "color": "",
+        "color": "Silver",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-pro-m1-1-0452882fa0.png"
+          "assets/macbook-pro-m2-1-76f27649eb.jpg"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3150,15 +3151,15 @@
       {
         "id": "p157",
         "brand": "Apple",
-        "model": "MacBook Pro M1",
-        "variant": "512gb 16gb RAM",
+        "model": "MacBook PRO M2",
+        "variant": "Space Gray",
         "capacity": "",
         "color": "",
         "category": "Notebooks",
         "condition": "Nuevo",
         "location": "",
         "images": [
-          "assets/macbook-pro-m1-1-0452882fa0.png"
+          "assets/macbook-pro-m2-1-76f27649eb.jpg"
         ],
         "availabilityStatus": "CURRENT",
         "requiresImei": true,
@@ -3169,166 +3170,6 @@
       },
       {
         "id": "p158",
-        "brand": "Apple",
-        "model": "MacBook Pro M1",
-        "variant": "512gb 8gb RAM",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m1-1-0452882fa0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p159",
-        "brand": "Apple",
-        "model": "MacBook Pro M1",
-        "variant": "Silver",
-        "capacity": "",
-        "color": "Silver",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m1-1-0452882fa0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p160",
-        "brand": "Apple",
-        "model": "MacBook Pro M1",
-        "variant": "Space Gray",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m1-1-0452882fa0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p161",
-        "brand": "Apple",
-        "model": "MacBook PRO M2",
-        "variant": "256gb 8gb RAM",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m2-1-76f27649eb.jpg"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p162",
-        "brand": "Apple",
-        "model": "MacBook PRO M2",
-        "variant": "512gb 16gb RAM",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m2-1-76f27649eb.jpg"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p163",
-        "brand": "Apple",
-        "model": "MacBook PRO M2",
-        "variant": "512gb 8gb RAM",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m2-1-76f27649eb.jpg"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p164",
-        "brand": "Apple",
-        "model": "MacBook PRO M2",
-        "variant": "Silver",
-        "capacity": "",
-        "color": "Silver",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m2-1-76f27649eb.jpg"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p165",
-        "brand": "Apple",
-        "model": "MacBook PRO M2",
-        "variant": "Space Gray",
-        "capacity": "",
-        "color": "",
-        "category": "Notebooks",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/macbook-pro-m2-1-76f27649eb.jpg"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": true,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p166",
         "brand": "Genérico",
         "model": "MagSafe Battery Pack Certificado",
         "variant": "Estándar",
@@ -3348,7 +3189,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p167",
+        "id": "p159",
         "brand": "Apple",
         "model": "PlayStation 5",
         "variant": "Estándar",
@@ -3368,7 +3209,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p168",
+        "id": "p160",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 11",
@@ -3388,7 +3229,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p169",
+        "id": "p161",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 11 Pro",
@@ -3408,7 +3249,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p170",
+        "id": "p162",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 11 Pro Max",
@@ -3428,7 +3269,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p171",
+        "id": "p163",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 12 Pro Max",
@@ -3448,7 +3289,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p172",
+        "id": "p164",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 12/12 PRO",
@@ -3468,7 +3309,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p173",
+        "id": "p165",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 13",
@@ -3488,7 +3329,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p174",
+        "id": "p166",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 13 Pro",
@@ -3508,7 +3349,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p175",
+        "id": "p167",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 13 Pro Max",
@@ -3528,7 +3369,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p176",
+        "id": "p168",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 14",
@@ -3548,7 +3389,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p177",
+        "id": "p169",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 14 Pro",
@@ -3568,7 +3409,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p178",
+        "id": "p170",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 14 Pro Max",
@@ -3588,7 +3429,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p179",
+        "id": "p171",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 15",
@@ -3608,7 +3449,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p180",
+        "id": "p172",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 15 Pro",
@@ -3628,7 +3469,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p181",
+        "id": "p173",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 15 Pro Max",
@@ -3648,7 +3489,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p182",
+        "id": "p174",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 16",
@@ -3668,7 +3509,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p183",
+        "id": "p175",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 16 Pro",
@@ -3688,7 +3529,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p184",
+        "id": "p176",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 16 Pro Max",
@@ -3708,7 +3549,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p185",
+        "id": "p177",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 7/8 Plus",
@@ -3728,7 +3569,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p186",
+        "id": "p178",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone 7/8/SE 2020",
@@ -3748,7 +3589,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p187",
+        "id": "p179",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "IPhone XR",
@@ -3768,7 +3609,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p188",
+        "id": "p180",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "Transparente",
@@ -3788,7 +3629,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p189",
+        "id": "p181",
         "brand": "Genérico",
         "model": "PROMO! Funda transparente + Vidrio templado 9D",
         "variant": "iPhone 12 Mini",
@@ -3808,7 +3649,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p190",
+        "id": "p182",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "Black",
@@ -3828,7 +3669,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p191",
+        "id": "p183",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 13",
@@ -3848,7 +3689,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p192",
+        "id": "p184",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 13 Pro / Pro Max",
@@ -3868,7 +3709,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p193",
+        "id": "p185",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 14",
@@ -3888,7 +3729,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p194",
+        "id": "p186",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 14 Pro / Pro Max",
@@ -3908,7 +3749,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p195",
+        "id": "p187",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 15 / 15 Plus",
@@ -3928,7 +3769,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p196",
+        "id": "p188",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "IPhone 15 Pro /15 Pro Max",
@@ -3948,7 +3789,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p197",
+        "id": "p189",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado",
         "variant": "Silver",
@@ -3968,7 +3809,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p198",
+        "id": "p190",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
         "variant": "Celeste",
@@ -3988,7 +3829,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p199",
+        "id": "p191",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
         "variant": "Dorado",
@@ -4008,7 +3849,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p200",
+        "id": "p192",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
         "variant": "Rojo",
@@ -4028,7 +3869,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p201",
+        "id": "p193",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
         "variant": "Verde militar",
@@ -4048,7 +3889,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p202",
+        "id": "p194",
         "brand": "Genérico",
         "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
         "variant": "iPhone 13 Pro /13 Pro Max",
@@ -4068,7 +3909,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p203",
+        "id": "p195",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "Amarillo",
@@ -4088,7 +3929,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p204",
+        "id": "p196",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "IPhone 13",
@@ -4108,7 +3949,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p205",
+        "id": "p197",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "IPhone 13 Pro",
@@ -4128,7 +3969,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p206",
+        "id": "p198",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "Rojo",
@@ -4148,7 +3989,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p207",
+        "id": "p199",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "Violeta , Amarillo",
@@ -4168,7 +4009,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p208",
+        "id": "p200",
         "brand": "Genérico",
         "model": "Silicone Case con Tira para colgar",
         "variant": "iPhone 13 Pro Max",
@@ -4188,787 +4029,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p209",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Amarillo",
-        "variant": "Amarillo",
-        "capacity": "",
-        "color": "Amarillo",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-amarillo-1-9dcefcde11.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p210",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Amarillo",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-amarillo-1-9dcefcde11.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p211",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Amarillo Maíz",
-        "variant": "Amarillo maiz",
-        "capacity": "",
-        "color": "Amarillo maiz",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-amarillo-maiz-1-edce1eec9d.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p212",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Amarillo Maíz",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-amarillo-maiz-1-edce1eec9d.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p213",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Azul",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-azul-1-2be0b534c6.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p214",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Fucsia",
-        "variant": "Fucsia",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-fucsia-1-4761266c9c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p215",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Fucsia",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-fucsia-1-4761266c9c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p216",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Gris Claro",
-        "variant": "Gris claro",
-        "capacity": "",
-        "color": "Gris claro",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-gris-claro-1-fe4f9749a9.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p217",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Gris Claro",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-gris-claro-1-fe4f9749a9.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p218",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Naranja",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-naranja-1-6d7ba04bff.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p219",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Naranja",
-        "variant": "Naranja",
-        "capacity": "",
-        "color": "Naranja",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-naranja-1-6d7ba04bff.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p220",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Naranja claro",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-naranja-claro-1-b2a2a9fa1c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p221",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Naranja claro",
-        "variant": "Naranja claro",
-        "capacity": "",
-        "color": "Naranja claro",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-naranja-claro-1-b2a2a9fa1c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p222",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Rosa",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-rosa-1-d2ea93e13f.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p223",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Rosa",
-        "variant": "Rosa",
-        "capacity": "",
-        "color": "Rosa",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-rosa-1-d2ea93e13f.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p224",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Salmón Fluor",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-salmon-fluor-1-cefc61013b.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p225",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Salmón Fluor",
-        "variant": "Salmón",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-salmon-fluor-1-cefc61013b.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p226",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Turquesa",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-turquesa-1-f4ef18d84e.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p227",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Turquesa",
-        "variant": "Turquesa",
-        "capacity": "",
-        "color": "Turquesa",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-turquesa-1-f4ef18d84e.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p228",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Verde Neon",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-verde-neon-1-c45c6b3461.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p229",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Verde Neon",
-        "variant": "Verde Neon",
-        "capacity": "",
-        "color": "Verde Neon",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-verde-neon-1-c45c6b3461.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p230",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 11 Color Violeta",
-        "variant": "IPhone 11",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-11-color-violeta-1-210e317db6.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p231",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Café Claro",
-        "variant": "Café Claro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-cafe-claro-1-d556a7b214.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p232",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Café Claro",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-cafe-claro-1-d556a7b214.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p233",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Durazno",
-        "variant": "IPhone 12 - 12 PRO",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-durazno-1-a642b13b99.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p234",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Fucsia",
-        "variant": "Fucsia",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-fucsia-1-e8826bd589.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p235",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Fucsia",
-        "variant": "IPhone 12 - 12 PRO",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-fucsia-1-e8826bd589.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p236",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Naranja",
-        "variant": "IPhone 12 - 12 PRO",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-naranja-1-3583532d15.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p237",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Naranja",
-        "variant": "Naranja",
-        "capacity": "",
-        "color": "Naranja",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-naranja-1-3583532d15.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p238",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Nude",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-nude-1-ff15a5fa98.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p239",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Nude",
-        "variant": "Nude",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-nude-1-ff15a5fa98.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p240",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Violeta",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-violeta-1-f33a053960.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p241",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Color Violeta",
-        "variant": "Violeta",
-        "capacity": "",
-        "color": "Violeta",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-violeta-1-f33a053960.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p242",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Salmón Fluor",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-salmon-fluor-1-892a8f6101.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p243",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12 - 12 Pro Salmón Fluor",
-        "variant": "Salmón",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-salmon-fluor-1-892a8f6101.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p244",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12-12 Pro Color Amarillo Pastel",
-        "variant": "Amarillo Pastel",
-        "capacity": "",
-        "color": "Amarillo Pastel",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-amarillo-pastel-1-f164ce5128.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p245",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12-12 Pro Color Amarillo Pastel",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-amarillo-pastel-1-f164ce5128.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p246",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12-12 Pro Color Celeste Pastel",
-        "variant": "Celeste Pastel",
-        "capacity": "",
-        "color": "Celeste Pastel",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-celeste-pastel-1-4a378778b8.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p247",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 12-12 Pro Color Celeste Pastel",
-        "variant": "IPhone 12 - 12 Pro",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-12-12-pro-color-celeste-pastel-1-4a378778b8.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p248",
+        "id": "p201",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Amarillo",
         "variant": "Amarillo",
@@ -4988,7 +4049,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p249",
+        "id": "p202",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Amarillo",
         "variant": "IPhone 13",
@@ -5008,7 +4069,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p250",
+        "id": "p203",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Azul",
         "variant": "Azul",
@@ -5028,7 +4089,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p251",
+        "id": "p204",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Azul",
         "variant": "IPhone 13",
@@ -5048,7 +4109,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p252",
+        "id": "p205",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Celeste Acero",
         "variant": "Celeste Acero",
@@ -5068,7 +4129,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p253",
+        "id": "p206",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Celeste Acero",
         "variant": "IPhone 13",
@@ -5088,7 +4149,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p254",
+        "id": "p207",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Coral Pastel",
         "variant": "Coral Pastel",
@@ -5108,7 +4169,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p255",
+        "id": "p208",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Coral Pastel",
         "variant": "IPhone 13",
@@ -5128,7 +4189,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p256",
+        "id": "p209",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Lila",
         "variant": "IPhone 13",
@@ -5148,7 +4209,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p257",
+        "id": "p210",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Lila",
         "variant": "Lila",
@@ -5168,7 +4229,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p258",
+        "id": "p211",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Negro",
         "variant": "IPhone 13",
@@ -5188,7 +4249,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p259",
+        "id": "p212",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Negro",
         "variant": "Negro",
@@ -5208,7 +4269,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p260",
+        "id": "p213",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Rojo",
         "variant": "IPhone 13",
@@ -5228,7 +4289,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p261",
+        "id": "p214",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Rojo",
         "variant": "Rojo",
@@ -5248,7 +4309,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p262",
+        "id": "p215",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Rosa Neon",
         "variant": "IPhone 13",
@@ -5268,7 +4329,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p263",
+        "id": "p216",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Rosa Neon",
         "variant": "Rosa Neon",
@@ -5288,7 +4349,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p264",
+        "id": "p217",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Verde Lima",
         "variant": "IPhone 13",
@@ -5308,7 +4369,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p265",
+        "id": "p218",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Verde Lima",
         "variant": "Verde Lima",
@@ -5328,7 +4389,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p266",
+        "id": "p219",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Verde Oscuro",
         "variant": "IPhone 13",
@@ -5348,7 +4409,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p267",
+        "id": "p220",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Verde Oscuro",
         "variant": "Verde Oscuro",
@@ -5368,7 +4429,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p268",
+        "id": "p221",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Violeta",
         "variant": "IPhone 13",
@@ -5388,7 +4449,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p269",
+        "id": "p222",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Violeta",
         "variant": "Violeta",
@@ -5408,7 +4469,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p270",
+        "id": "p223",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Violeta Oscuro",
         "variant": "IPhone 13",
@@ -5428,7 +4489,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p271",
+        "id": "p224",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Color Violeta Oscuro",
         "variant": "Violeta Oscuro",
@@ -5448,7 +4509,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p272",
+        "id": "p225",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Azul",
         "variant": "Azul Claro",
@@ -5468,7 +4529,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p273",
+        "id": "p226",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Azul",
         "variant": "IPhone 13 Pro",
@@ -5488,7 +4549,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p274",
+        "id": "p227",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Blanco",
         "variant": "Blanco",
@@ -5508,7 +4569,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p275",
+        "id": "p228",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Blanco",
         "variant": "IPhone 13 Pro",
@@ -5528,7 +4589,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p276",
+        "id": "p229",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Bordo",
         "variant": "Bordó",
@@ -5548,7 +4609,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p277",
+        "id": "p230",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Bordo",
         "variant": "IPhone 13 Pro",
@@ -5568,7 +4629,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p278",
+        "id": "p231",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Celeste",
         "variant": "Celeste",
@@ -5588,7 +4649,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p279",
+        "id": "p232",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Celeste",
         "variant": "IPhone 13 Pro",
@@ -5608,7 +4669,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p280",
+        "id": "p233",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Fucsia",
         "variant": "Fucsia",
@@ -5628,7 +4689,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p281",
+        "id": "p234",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Fucsia",
         "variant": "IPhone 13 Pro",
@@ -5648,7 +4709,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p282",
+        "id": "p235",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Negro",
         "variant": "IPhone 13 Pro",
@@ -5668,7 +4729,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p283",
+        "id": "p236",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Negro",
         "variant": "Negro",
@@ -5688,7 +4749,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p284",
+        "id": "p237",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Nude",
         "variant": "IPhone 13 Pro",
@@ -5708,7 +4769,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p285",
+        "id": "p238",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Nude",
         "variant": "Nude",
@@ -5728,7 +4789,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p286",
+        "id": "p239",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Rainbow",
         "variant": "IPhone 13 Pro",
@@ -5748,7 +4809,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p287",
+        "id": "p240",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Rainbow",
         "variant": "Rainbow",
@@ -5768,7 +4829,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p288",
+        "id": "p241",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Turquesa",
         "variant": "IPhone 13 Pro",
@@ -5788,7 +4849,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p289",
+        "id": "p242",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Turquesa",
         "variant": "Turquesa",
@@ -5808,7 +4869,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p290",
+        "id": "p243",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Verde",
         "variant": "IPhone 13 Pro",
@@ -5828,7 +4889,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p291",
+        "id": "p244",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Color Verde",
         "variant": "Verde",
@@ -5848,7 +4909,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p292",
+        "id": "p245",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Lila",
         "variant": "IPhone 13 Pro",
@@ -5868,7 +4929,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p293",
+        "id": "p246",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Lila",
         "variant": "Lila",
@@ -5888,7 +4949,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p294",
+        "id": "p247",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max color Amarillo brillante",
         "variant": "Amarillo",
@@ -5908,7 +4969,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p295",
+        "id": "p248",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max color Amarillo brillante",
         "variant": "IPhone 13 Pro Max",
@@ -5928,7 +4989,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p296",
+        "id": "p249",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Amarillo claro",
         "variant": "Amarillo",
@@ -5948,7 +5009,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p297",
+        "id": "p250",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Amarillo claro",
         "variant": "IPhone 13 Pro Max",
@@ -5968,7 +5029,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p298",
+        "id": "p251",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Azul",
         "variant": "Azul",
@@ -5988,7 +5049,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p299",
+        "id": "p252",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Azul",
         "variant": "IPhone 13 Pro Max",
@@ -6008,7 +5069,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p300",
+        "id": "p253",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Fucsia",
         "variant": "Fucsia",
@@ -6028,7 +5089,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p301",
+        "id": "p254",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Fucsia",
         "variant": "IPhone 13 Pro Max",
@@ -6048,7 +5109,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p302",
+        "id": "p255",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Rojo",
         "variant": "IPhone 13 Pro Max",
@@ -6068,7 +5129,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p303",
+        "id": "p256",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Rojo",
         "variant": "Rojo",
@@ -6088,7 +5149,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p304",
+        "id": "p257",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Rosa",
         "variant": "IPhone 13 Pro Max",
@@ -6108,7 +5169,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p305",
+        "id": "p258",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Rosa",
         "variant": "Rosa",
@@ -6128,7 +5189,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p306",
+        "id": "p259",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Verde Oliva",
         "variant": "IPhone 13 Pro Max",
@@ -6148,7 +5209,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p307",
+        "id": "p260",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Pro Max Color Verde Oliva",
         "variant": "Verde",
@@ -6168,7 +5229,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p308",
+        "id": "p261",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Salmón Fluor",
         "variant": "IPhone 13",
@@ -6188,7 +5249,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p309",
+        "id": "p262",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 13 Salmón Fluor",
         "variant": "Salmon Fluo",
@@ -6208,7 +5269,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p310",
+        "id": "p263",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Azul Francia",
         "variant": "Azul Francia",
@@ -6228,7 +5289,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p311",
+        "id": "p264",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Azul Francia",
         "variant": "IPhone 14",
@@ -6248,7 +5309,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p312",
+        "id": "p265",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Celeste",
         "variant": "Celeste",
@@ -6268,7 +5329,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p313",
+        "id": "p266",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Celeste",
         "variant": "IPhone 14",
@@ -6288,7 +5349,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p314",
+        "id": "p267",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Celeste Oscuro",
         "variant": "Celeste oscuro",
@@ -6308,7 +5369,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p315",
+        "id": "p268",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Celeste Oscuro",
         "variant": "IPhone 14",
@@ -6328,7 +5389,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p316",
+        "id": "p269",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Durazno",
         "variant": "Durazno",
@@ -6348,7 +5409,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p317",
+        "id": "p270",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Durazno",
         "variant": "IPhone 14",
@@ -6368,7 +5429,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p318",
+        "id": "p271",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Fucsia",
         "variant": "Fucsia",
@@ -6388,7 +5449,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p319",
+        "id": "p272",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Fucsia",
         "variant": "IPhone 14",
@@ -6408,7 +5469,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p320",
+        "id": "p273",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Nude",
         "variant": "IPhone 14",
@@ -6428,7 +5489,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p321",
+        "id": "p274",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Nude",
         "variant": "Nude",
@@ -6448,7 +5509,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p322",
+        "id": "p275",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Rosa Fluor",
         "variant": "IPhone 14",
@@ -6468,7 +5529,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p323",
+        "id": "p276",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde",
         "variant": "IPhone 14",
@@ -6488,7 +5549,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p324",
+        "id": "p277",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde",
         "variant": "Verde",
@@ -6508,7 +5569,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p325",
+        "id": "p278",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde Fluor",
         "variant": "IPhone 14",
@@ -6528,7 +5589,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p326",
+        "id": "p279",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde Fluor",
         "variant": "Verde Neon",
@@ -6548,7 +5609,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p327",
+        "id": "p280",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde Militar",
         "variant": "IPhone 14",
@@ -6568,7 +5629,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p328",
+        "id": "p281",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Color Verde Militar",
         "variant": "Verde Militar",
@@ -6588,7 +5649,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p329",
+        "id": "p282",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Amarillo",
         "variant": "Amarillo",
@@ -6608,7 +5669,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p330",
+        "id": "p283",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Amarillo",
         "variant": "IPhone 14 Pro",
@@ -6628,7 +5689,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p331",
+        "id": "p284",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Celeste",
         "variant": "Celeste",
@@ -6648,7 +5709,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p332",
+        "id": "p285",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Celeste",
         "variant": "IPhone 14 Pro",
@@ -6668,7 +5729,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p333",
+        "id": "p286",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Gris Oscuro",
         "variant": "Gris Oscuro",
@@ -6688,7 +5749,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p334",
+        "id": "p287",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Gris Oscuro",
         "variant": "IPhone 14 Pro",
@@ -6708,7 +5769,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p335",
+        "id": "p288",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Magenta",
         "variant": "IPhone 14 Pro",
@@ -6728,7 +5789,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p336",
+        "id": "p289",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Rojo",
         "variant": "IPhone 14 Pro",
@@ -6748,7 +5809,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p337",
+        "id": "p290",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Rojo",
         "variant": "Rojo",
@@ -6768,7 +5829,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p338",
+        "id": "p291",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Rosa Barbie",
         "variant": "IPhone 14 Pro",
@@ -6788,7 +5849,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p339",
+        "id": "p292",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Rosa Barbie",
         "variant": "Rosa Barbie",
@@ -6808,7 +5869,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p340",
+        "id": "p293",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Turquesa Pastel",
         "variant": "IPhone 14 Pro",
@@ -6828,7 +5889,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p341",
+        "id": "p294",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Turquesa Pastel",
         "variant": "Turquesa Pastel",
@@ -6848,7 +5909,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p342",
+        "id": "p295",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Verde Oscuro",
         "variant": "IPhone 14 Pro",
@@ -6868,7 +5929,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p343",
+        "id": "p296",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Verde Oscuro",
         "variant": "Verde",
@@ -6888,7 +5949,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p344",
+        "id": "p297",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Violeta",
         "variant": "IPhone 14 Pro",
@@ -6908,7 +5969,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p345",
+        "id": "p298",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Color Violeta",
         "variant": "Violeta",
@@ -6928,7 +5989,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p346",
+        "id": "p299",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Amarillo",
         "variant": "Amarillo",
@@ -6948,7 +6009,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p347",
+        "id": "p300",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Amarillo",
         "variant": "IPhone 14 Pro Max",
@@ -6968,7 +6029,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p348",
+        "id": "p301",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Amarillo Pastel",
         "variant": "Amarillo Pastel",
@@ -6988,7 +6049,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p349",
+        "id": "p302",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Amarillo Pastel",
         "variant": "IPhone 14 Pro Max",
@@ -7008,7 +6069,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p350",
+        "id": "p303",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Azul",
         "variant": "Azul",
@@ -7028,7 +6089,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p351",
+        "id": "p304",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Azul",
         "variant": "IPhone 14 Pro Max",
@@ -7048,7 +6109,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p352",
+        "id": "p305",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Blanco",
         "variant": "Blanco",
@@ -7068,7 +6129,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p353",
+        "id": "p306",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Blanco",
         "variant": "IPhone 14 Pro Max",
@@ -7088,7 +6149,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p354",
+        "id": "p307",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Durazno",
         "variant": "IPhone 14 Pro Max",
@@ -7108,7 +6169,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p355",
+        "id": "p308",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Fucsia oscura",
         "variant": "Fucsia oscura",
@@ -7128,7 +6189,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p356",
+        "id": "p309",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Fucsia oscura",
         "variant": "IPhone 14 Pro Max",
@@ -7148,7 +6209,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p357",
+        "id": "p310",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Naranja",
         "variant": "IPhone 14 Pro Max",
@@ -7168,7 +6229,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p358",
+        "id": "p311",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Naranja",
         "variant": "Naranja",
@@ -7188,7 +6249,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p359",
+        "id": "p312",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Rosa BARBIE",
         "variant": "IPhone 14 Pro Max",
@@ -7208,7 +6269,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p360",
+        "id": "p313",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Rosa BARBIE",
         "variant": "Rosa Claro",
@@ -7228,7 +6289,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p361",
+        "id": "p314",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Salmón flúor",
         "variant": "IPhone 14 Pro Max",
@@ -7248,7 +6309,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p362",
+        "id": "p315",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Salmón flúor",
         "variant": "Salmón flúor",
@@ -7268,7 +6329,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p363",
+        "id": "p316",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Turquesa",
         "variant": "IPhone 14 Pro Max",
@@ -7288,7 +6349,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p364",
+        "id": "p317",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Turquesa",
         "variant": "Turquesa",
@@ -7308,7 +6369,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p365",
+        "id": "p318",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Verde Militar",
         "variant": "IPhone 14 Pro Max",
@@ -7328,7 +6389,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p366",
+        "id": "p319",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Pro Max Color Verde Militar",
         "variant": "Verde Militar",
@@ -7348,7 +6409,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p367",
+        "id": "p320",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Rosa Oscuro",
         "variant": "IPhone 14",
@@ -7368,7 +6429,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p368",
+        "id": "p321",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 14 Rosa Oscuro",
         "variant": "Rosa Oscuro",
@@ -7388,7 +6449,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p369",
+        "id": "p322",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 color Lila",
         "variant": "Estándar",
@@ -7408,7 +6469,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p370",
+        "id": "p323",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 color rosa",
         "variant": "Estándar",
@@ -7428,7 +6489,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p371",
+        "id": "p324",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 color Salmón",
         "variant": "Estándar",
@@ -7448,7 +6509,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p372",
+        "id": "p325",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 color Violeta",
         "variant": "Estándar",
@@ -7468,7 +6529,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p373",
+        "id": "p326",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro color Bordo oscuro",
         "variant": "Estándar",
@@ -7488,7 +6549,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p374",
+        "id": "p327",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro color Fucsia",
         "variant": "Fucsia",
@@ -7508,7 +6569,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p375",
+        "id": "p328",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro color lila",
         "variant": "Lila",
@@ -7528,7 +6589,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p376",
+        "id": "p329",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Color Negro",
         "variant": "Estándar",
@@ -7548,7 +6609,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p377",
+        "id": "p330",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro color Violeta",
         "variant": "Estándar",
@@ -7568,7 +6629,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p378",
+        "id": "p331",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Max color Azul francia",
         "variant": "Estándar",
@@ -7588,7 +6649,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p379",
+        "id": "p332",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Max color Azul oscuro",
         "variant": "Estándar",
@@ -7608,7 +6669,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p380",
+        "id": "p333",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Max color Fucsia oscuro",
         "variant": "Estándar",
@@ -7628,7 +6689,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p381",
+        "id": "p334",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Max Color Negro",
         "variant": "Estándar",
@@ -7648,7 +6709,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p382",
+        "id": "p335",
         "brand": "Genérico",
         "model": "Silicone Case iPhone 15 Pro Max Color Roja",
         "variant": "Estándar",
@@ -7668,407 +6729,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p383",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rojo",
-        "variant": "IPhone 7 8 SE",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rojo-1-e7ad19eeb4.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p384",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rojo",
-        "variant": "Rojo",
-        "capacity": "",
-        "color": "Rojo",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rojo-1-e7ad19eeb4.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p385",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa",
-        "variant": "IPhone 7 8 SE",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rosa-1-eedb3f1d97.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p386",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa",
-        "variant": "Rosa",
-        "capacity": "",
-        "color": "Rosa",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rosa-1-eedb3f1d97.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p387",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa Flúor",
-        "variant": "IPhone 7 8 SE",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rosa-fluor-1-f47b90b5ce.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p388",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa Flúor",
-        "variant": "Rosa fluor",
-        "capacity": "",
-        "color": "Rosa fluor",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-rosa-fluor-1-f47b90b5ce.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p389",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Verde",
-        "variant": "IPhone 7 8 SE",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-verde-1-cae46b4add.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p390",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Color Verde",
-        "variant": "Verde",
-        "capacity": "",
-        "color": "Verde",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-color-verde-1-cae46b4add.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p391",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Salmón Coral",
-        "variant": "IPhone 7 8 SE",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-salmon-coral-1-3098ad33c6.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p392",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone 7 8 SE 2022 Salmón Coral",
-        "variant": "Salmón",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-7-8-se-2022-salmon-coral-1-3098ad33c6.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p393",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Amarillo",
-        "variant": "Amarillo",
-        "capacity": "",
-        "color": "Amarillo",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-amarillo-1-22de71a406.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p394",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Amarillo",
-        "variant": "IPhone Xr",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-amarillo-1-22de71a406.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p395",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Azul",
-        "variant": "Azul",
-        "capacity": "",
-        "color": "Azul",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-azul-1-1bc7c834d0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p396",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Azul",
-        "variant": "IPhone Xr",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-azul-1-1bc7c834d0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p397",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Celeste Pastel",
-        "variant": "Celeste Pastel",
-        "capacity": "",
-        "color": "Celeste Pastel",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-celeste-pastel-1-371e8c28fe.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p398",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Celeste Pastel",
-        "variant": "IPhone Xr",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-celeste-pastel-1-371e8c28fe.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p399",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Naranja",
-        "variant": "IPhone Xr",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-naranja-1-5654f1919c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p400",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Naranja",
-        "variant": "Naranja",
-        "capacity": "",
-        "color": "Naranja",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-naranja-1-5654f1919c.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p401",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Rosa",
-        "variant": "IPhone Xr",
-        "capacity": "",
-        "color": "",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-rosa-1-41c0f41ba0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p402",
-        "brand": "Genérico",
-        "model": "Silicone Case iPhone Xr Color Rosa",
-        "variant": "Rosa",
-        "capacity": "",
-        "color": "Rosa",
-        "category": "Accesorios",
-        "condition": "Nuevo",
-        "location": "",
-        "images": [
-          "assets/silicone-case-iphone-xr-color-rosa-1-41c0f41ba0.png"
-        ],
-        "availabilityStatus": "CURRENT",
-        "requiresImei": false,
-        "price": null,
-        "priceKnown": false,
-        "promoPrice": null,
-        "stockStatus": "AGOTADO"
-      },
-      {
-        "id": "p403",
+        "id": "p336",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "IPhone 13/13 Pro",
@@ -8088,7 +6749,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p404",
+        "id": "p337",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "IPhone 14 Pro",
@@ -8108,7 +6769,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p405",
+        "id": "p338",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "IPhone 14 Pro Max",
@@ -8128,7 +6789,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p406",
+        "id": "p339",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 11 / XR",
@@ -8148,7 +6809,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p407",
+        "id": "p340",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 11 Pro / X",
@@ -8168,7 +6829,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p408",
+        "id": "p341",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 11 Pro Max",
@@ -8188,7 +6849,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p409",
+        "id": "p342",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 12 Pro max",
@@ -8208,7 +6869,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p410",
+        "id": "p343",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 12/12 Pro",
@@ -8228,7 +6889,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p411",
+        "id": "p344",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 13 Mini",
@@ -8248,7 +6909,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p412",
+        "id": "p345",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 13 Pro Max",
@@ -8268,7 +6929,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p413",
+        "id": "p346",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 14",
@@ -8288,7 +6949,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p414",
+        "id": "p347",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 15",
@@ -8308,7 +6969,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p415",
+        "id": "p348",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 15 Pro",
@@ -8328,7 +6989,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p416",
+        "id": "p349",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 15 Pro Max",
@@ -8348,7 +7009,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p417",
+        "id": "p350",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 16",
@@ -8368,7 +7029,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p418",
+        "id": "p351",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 16 Pro",
@@ -8388,7 +7049,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p419",
+        "id": "p352",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 16 Pro Max",
@@ -8408,7 +7069,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p420",
+        "id": "p353",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 6G",
@@ -8428,7 +7089,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p421",
+        "id": "p354",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone 7 Plus / 8 Plus",
@@ -8448,7 +7109,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p422",
+        "id": "p355",
         "brand": "Genérico",
         "model": "Vidrio Templado 9D",
         "variant": "iPhone SE",
@@ -8468,7 +7129,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p423",
+        "id": "p356",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 11",
@@ -8488,7 +7149,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p424",
+        "id": "p357",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 13 Pro",
@@ -8508,7 +7169,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p425",
+        "id": "p358",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 13 Pro Max",
@@ -8528,7 +7189,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p426",
+        "id": "p359",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 14",
@@ -8548,7 +7209,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p427",
+        "id": "p360",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 14 Pro",
@@ -8568,7 +7229,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p428",
+        "id": "p361",
         "brand": "Genérico",
         "model": "Vidrio Templado Anti Espía",
         "variant": "iPhone 14 Pro Max",
@@ -8588,7 +7249,7 @@
         "stockStatus": "AGOTADO"
       },
       {
-        "id": "p429",
+        "id": "p362",
         "brand": "Genérico",
         "model": "Vidrio Templado Apple Watch 44mm",
         "variant": "44mm",

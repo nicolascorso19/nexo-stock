@@ -635,6 +635,7 @@ body.modal-open { overflow: hidden; }
 
 .public-body {
   /* --- Colors --- */
+  --wa-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.2 15.3l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 0 1 12 3.8zm-3.4 4c-.2 0-.5.1-.7.4-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.9 4.3 3.9 2.1.8 2.5.7 3 .6.5-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2l-.6-.3-1.4-.7c-.2-.1-.4-.1-.5.1l-.6.8c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5l-.7-1.6c-.2-.4-.4-.4-.5-.4z'/%3E%3C/svg%3E");
   --color-apple-blue: #0071e3;   /* filled action only. never text, never border. */
   --color-link-blue: #0066cc;    /* outlined action + inline link */
   --color-signal-blue: #2997ff;  /* decorative only */
@@ -856,7 +857,75 @@ html:has(.public-body) { overflow-x: clip; }
   display: block; color: var(--color-mist);
   font-family: var(--font-sf-pro-text); font-size: var(--text-caption); font-weight: 400; letter-spacing: var(--tracking-caption);
 }
+/* Consulta por WhatsApp: reemplaza al precio, que no se publica. */
+.public-wa {
+  margin: auto 0 0; padding-top: var(--spacing-20);
+  display: inline-flex; align-items: center; gap: var(--spacing-8);
+  font-family: var(--font-sf-pro-text); font-size: var(--text-body-sm); font-weight: 600;
+  letter-spacing: var(--tracking-body-sm); text-decoration: none;
+  color: #fff; background: #1fa855; border-radius: var(--radius-pill);
+  padding: 10px 18px; width: fit-content; max-width: 100%;
+  transition: background 140ms ease, transform 140ms ease;
+}
+.public-wa::before {
+  content: ''; width: 15px; height: 15px; flex: 0 0 auto;
+  background-color: currentColor;
+  -webkit-mask: var(--wa-icon) center / contain no-repeat;
+  mask: var(--wa-icon) center / contain no-repeat;
+}
+.public-wa:hover { background: #17924a; transform: translateY(-1px); }
+.public-card--out .public-wa { background: #2f8f5b; }
 .public-foot { margin: var(--spacing-4) 0 0; color: var(--color-ash); font-size: var(--text-caption); letter-spacing: var(--tracking-caption); }
+/* Selector de colores: la tarjeta es el producto, los colores se eligen adentro. */
+.public-swatches { display: flex; flex-wrap: wrap; gap: 6px; margin: var(--spacing-12) 0 0; padding: 0; list-style: none; }
+.public-swatches li { width: 14px; height: 14px; border-radius: 50%; background: var(--swatch); box-shadow: inset 0 0 0 1px var(--color-hairline); }
+.public-pick {
+  margin: auto 0 0; padding-top: var(--spacing-20); align-self: flex-start;
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px;
+  font-family: var(--font-sf-pro-text); font-size: var(--text-body-sm); font-weight: 600;
+  letter-spacing: var(--tracking-body-sm); color: var(--color-carbon);
+  background: var(--color-frost); border: 1px solid var(--color-hairline); border-radius: var(--radius-pill);
+  padding: 9px 18px; cursor: pointer; transition: background 140ms ease, border-color 140ms ease;
+}
+.public-pick::after { content: '›'; font-size: 15px; line-height: 1; color: var(--color-ash); }
+.public-pick:hover { background: var(--color-pebble); border-color: var(--color-mist); }
+.public-pick:active { transform: translateY(1px); }
+.public-pick:disabled { opacity: .5; cursor: not-allowed; }
+/* Ventana de colores */
+.public-dialog {
+  width: min(560px, calc(100vw - 32px)); max-height: min(78vh, 720px); padding: 0;
+  border: 1px solid var(--color-hairline); border-radius: var(--radius-card, 18px);
+  background: var(--color-white); color: var(--color-carbon);
+  box-shadow: 0 24px 60px rgb(0 0 0 / .18); overflow: hidden;
+}
+.public-dialog::backdrop { background: rgb(0 0 0 / .42); }
+.public-dialog-head {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--spacing-16);
+  padding: var(--spacing-20) var(--spacing-24); border-bottom: 1px solid var(--color-hairline);
+}
+.public-dialog-head h2 { margin: 0; font-size: var(--text-heading-sm); font-weight: 600; letter-spacing: var(--tracking-heading-sm); min-width: 0; overflow-wrap: anywhere; }
+.public-dialog-close {
+  flex: 0 0 auto; min-height: 36px; padding: 6px 14px; cursor: pointer;
+  font: inherit; font-size: var(--text-caption); color: var(--color-smoke);
+  background: var(--color-frost); border: 1px solid var(--color-hairline); border-radius: var(--radius-pill);
+}
+.public-dialog-close:hover { background: var(--color-pebble); }
+.public-dialog-body { padding: var(--spacing-16) var(--spacing-24) var(--spacing-24); overflow-y: auto; max-height: calc(78vh - 80px); }
+.public-options { display: grid; gap: var(--spacing-8); margin: 0; padding: 0; list-style: none; }
+.public-option {
+  display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; align-items: center; gap: var(--spacing-12);
+  padding: 10px; border: 1px solid var(--color-hairline); border-radius: 14px; background: var(--color-white);
+}
+.public-option img { width: 56px; height: 56px; object-fit: cover; border-radius: 10px; background: var(--color-frost); }
+.public-option-sin-foto { width: 56px; height: 56px; border-radius: 10px; background: var(--color-frost); }
+.public-option-info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.public-option-name { font-weight: 600; font-size: var(--text-body-sm); overflow-wrap: anywhere; }
+.public-option .public-wa { margin: 0; padding: 8px 14px; font-size: var(--text-caption); white-space: nowrap; }
+@media (max-width: 480px) {
+  .public-option { grid-template-columns: 48px minmax(0, 1fr); }
+  .public-option img, .public-option-sin-foto { width: 48px; height: 48px; }
+  .public-option .public-wa { grid-column: 1 / -1; justify-content: center; }
+}
 .public-card--out { background: var(--color-frost); }
 .public-card--out h2, .public-card--out .public-price { color: var(--color-ash); }
 

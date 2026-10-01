@@ -21,7 +21,7 @@ const assetsOut = path.join(docsDir, 'assets');
 
 const config = getConfig();
 const db = new Database(config.dbPath, { readonly: true, fileMustExist: true });
-const catalog = publicCatalog(db);
+const catalog = publicCatalog(db, config);
 db.close();
 
 fs.rmSync(docsDir, { recursive: true, force: true });

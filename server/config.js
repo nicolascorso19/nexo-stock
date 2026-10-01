@@ -67,6 +67,9 @@ export function getConfig(env = process.env) {
     // La web pública es la tienda del puerto 4100, no un catálogo propio.
     // /public y /public.html redirigen acá para que los enlaces old del panel sigan sirviendo.
     storefrontUrl: env.STOREFRONT_URL || 'http://127.0.0.1:4100/',
+    // El catalogo no publica precios: cada producto se consulta por WhatsApp.
+    // Numero en formato internacional, solo digitos (wa.me no acepta + ni espacios).
+    whatsapp: String(env.WHATSAPP || '543517507501').replace(/[^\d]/g, ''),
     commerceWebhooksEnabled: booleanFromEnv(env.COMMERCE_WEBHOOKS_ENABLED, false),
     commerceWebhookUrl: env.COMMERCE_WEBHOOK_URL || '',
     commerceWebhookKeyId: env.COMMERCE_WEBHOOK_KEY_ID || '',

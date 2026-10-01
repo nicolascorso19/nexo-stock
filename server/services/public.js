@@ -27,7 +27,7 @@ function safeImages(...values) {
  * contiene unidades, costos, proveedores, clientes y auditoría interna.
  * La web consume exactamente el precio y el stock de la tabla principal.
  */
-export function publicCatalog(db) {
+export function publicCatalog(db, config = {}) {
   const settings = getSettings(db);
   const rows = db.prepare(`
     SELECT pv.id, pv.variant_name, pv.sale_price, pv.sale_price_registered, pv.promo_price,
@@ -54,7 +54,7 @@ export function publicCatalog(db) {
     ORDER BY pm.name, pv.variant_name
   `).all();
   return {
-    business: { name: settings.businessName, location: settings.locationName, currency: settings.currency },
+    business: { name: settings.businessName, location: settings.locationName, currency: settings.currency, whatsapp: config.whatsapp },
     generatedAt: new Date().toISOString(),
     products: rows.map(row => {
       const now = Date.now();
