@@ -1,6 +1,26 @@
 import { getSettings } from '../services/settings.js';
 import { parseJson } from '../utils.js';
 
+/**
+ * El inventario se lee en dos bloques: los equipos (iPhone 13 en adelante,
+ * MacBook y AirPods) y todo lo demás (fundas, vidrios, cables, cargadores).
+ *
+ * La regla mira el nombre del modelo, no la categoría: una funda de AirPods
+ * dice "Airpods" pero es un accesorio, y la PlayStation está categorizada como
+ * celular aunque no sea un equipo Apple. Los iPhone anteriores al 13 ya están
+ * archivados en el catálogo; el corte se mantiene explícito para que la regla
+ * sobreviva si alguien los recupera.
+ */
+export function grupoDe(category, model) {
+  const texto = String(model || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  if (texto.startsWith('iphone')) {
+    const generacion = Number((texto.match(/iphone\s*(\d{1,2})/) || [])[1] || 0);
+    return generacion >= 13 ? 'equipos' : 'accesorios';
+  }
+  if (texto.startsWith('airpods') || texto.startsWith('macbook')) return 'equipos';
+  return 'accesorios';
+}
+
 export const PRODUCT_SELECT = `
   SELECT
     pv.id,
@@ -112,6 +132,7 @@ export function mapProductRow(row) {
     stockStatus: Number(row.available_stock ?? Math.max(0, Number(row.stock || 0) - Number(row.reserved_stock || 0))) === 0 ? 'AGOTADO' : Number(row.available_stock ?? Math.max(0, Number(row.stock || 0) - Number(row.reserved_stock || 0))) <= 1 ? 'ÚLTIMA UNIDAD' : 'DISPONIBLE',
     notes: row.notes,
     category: row.category,
+    grupo: grupoDe(row.category, row.model),
     barcode: row.barcode,
     sku: row.sku,
     isFictional: row.is_fictional === 1,

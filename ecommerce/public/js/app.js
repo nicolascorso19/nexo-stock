@@ -45,7 +45,7 @@ function header() {
   const categories = catalogFacets().categories;
   return `<header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="/" data-link><span class="brand-mark">N</span><span>${escape(state.config?.brandName || 'NEXO Tech')}</span></a>
+      <a class="logo" href="/" data-link><img class="logo-image" src="/img/logo-chascell.png" width="893" height="639" alt="Chascell" /><span class="logo-text">${escape(state.config?.brandName || 'Chascell')}</span></a>
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="/" data-link${active('/')}>Inicio</a>
         <a href="/catalogo?category=Celulares" data-link${active('/catalogo')}>iPhone</a>
@@ -87,7 +87,7 @@ function footer() {
   return `<footer class="site-footer"><div class="container">
     <div class="footer-grid">
       <div>
-        <a class="logo" href="/" data-link><span class="brand-mark">N</span><span>${escape(store.brandName || 'NEXO Tech')}</span></a>
+        <a class="logo" href="/" data-link><img class="logo-image" src="/img/logo-chascell.png" width="893" height="639" alt="Chascell" /><span class="logo-text">${escape(store.brandName || 'Chascell')}</span></a>
         <p>${escape(store.seo?.description || 'Equipos seleccionados. Compra segura. Atención personalizada.')}</p>
       </div>
       <div><p class="footer-title">Comprar</p>

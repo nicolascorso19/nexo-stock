@@ -256,6 +256,20 @@ h3 { font-size: 14px; }
 
 /* Tables */
 .table-card { overflow: hidden; }
+/* Inventario en dos bloques: equipos arriba, accesorios abajo. */
+.inventory-group + .inventory-group { margin-top: 28px; }
+.inventory-group-head {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: var(--spacing-16);
+  margin: 0 0 var(--spacing-12);
+}
+.inventory-group-title { margin: 0; font-size: var(--text-heading-sm, 19px); font-weight: 600; letter-spacing: -0.01em; }
+.inventory-group-detail { margin: 2px 0 0; color: var(--color-text-muted, #86868b); font-size: 13px; }
+.inventory-group-counts { display: flex; flex-wrap: wrap; gap: var(--spacing-16, 16px); color: var(--color-text-muted, #86868b); font-size: 13px; }
+.inventory-group-counts b { color: var(--color-text, #1d1d1f); font-weight: 600; }
+.inventory-group-counts .is-warn b { color: #c2410c; }
+@media (max-width: 720px) {
+  .inventory-group-head { flex-direction: column; align-items: flex-start; gap: 8px; }
+}
 .table-scroll { width: 100%; overflow-x: auto; }
 .data-table { width: 100%; border-collapse: collapse; min-width: 860px; }
 .data-table th { padding: 12px 14px; color: #8a95a8; border-bottom: 1px solid var(--line); background: #fbfcfe; font-size: 9px; font-weight: 800; letter-spacing: .08em; text-align: left; text-transform: uppercase; white-space: nowrap; }

@@ -282,6 +282,50 @@
   }
 
   /* Inventory / products */
+  /**
+   * El inventario se lee en dos bloques, como pide el local: primero los equipos
+   * (iPhone 13 en adelante, MacBook y AirPods) y después los accesorios (fundas,
+   * vidrios, cables, cargadores). Los filtros de arriba siguen mandando sobre
+   * los dos: si no hay resultados en un bloque, no se muestra.
+   */
+  function renderGruposInventario(products, canSeeFinancials) {
+    const equipos = products.filter(product => product.grupo === 'equipos');
+    const accesorios = products.filter(product => product.grupo !== 'equipos');
+    const bloques = [
+      { grupo: 'equipos', titulo: 'Equipos', detalle: 'iPhone 13 en adelante, MacBook y AirPods', items: equipos },
+      { grupo: 'accesorios', titulo: 'Accesorios', detalle: 'Fundas, vidrios, cables, cargadores y otros', items: accesorios }
+    ].filter(bloque => bloque.items.length > 0);
+
+    if (!bloques.length) {
+      return emptyState('No encontramos productos', 'Probá cambiar los filtros o agregá un nuevo producto.', `${hasRole('Administrador') ? `<button class="btn btn-primary btn-sm" data-action="open-product">${icon('plus')} Agregar producto</button>` : ''}`);
+    }
+
+    return bloques.map(bloque => {
+      const unidades = bloque.items.reduce((suma, product) => suma + Number(product.stock || 0), 0);
+      const sinStock = bloque.items.filter(product => Number(product.stock || 0) === 0).length;
+      return `<section class="inventory-group" aria-labelledby="grupo-${bloque.grupo}">
+        <div class="inventory-group-head">
+          <div>
+            <h2 class="inventory-group-title" id="grupo-${bloque.grupo}">${esc(bloque.titulo)}</h2>
+            <p class="inventory-group-detail">${esc(bloque.detalle)}</p>
+          </div>
+          <div class="inventory-group-counts">
+            <span><b>${bloque.items.length}</b> ${bloque.items.length === 1 ? 'variante' : 'variantes'}</span>
+            <span><b>${unidades}</b> unidades</span>
+            ${sinStock ? `<span class="is-warn"><b>${sinStock}</b> sin stock</span>` : ''}
+          </div>
+        </div>
+        <div class="card table-card inventory-table-card">
+          <div class="table-scroll"><table class="data-table">
+            <thead><tr><th>Producto</th><th>Variante</th><th>Stock</th>${canSeeFinancials ? '<th class="num">Costo</th>' : ''}<th class="num">Venta</th>${canSeeFinancials ? '<th class="num">Ganancia</th>' : ''}<th>Estado</th><th>Acciones</th></tr></thead>
+            <tbody>${bloque.items.map(renderProductRow).join('')}</tbody>
+          </table></div>
+          <div class="mobile-card-list">${bloque.items.map(renderMobileProduct).join('')}</div>
+        </div>
+      </section>`;
+    }).join('');
+  }
+
   function renderInventory() {
     const products = filteredProducts();
     const all = store.getProducts();
@@ -290,7 +334,7 @@
     const totalValue = store.getMetrics().stockValue;
     const low = all.filter(product => product.stock > 0 && product.stock <= product.minStock).length;
     const out = all.filter(product => product.stock === 0).length;
-    const content = `${pageHead('Control de inventario', 'Inventario', 'Consultá, filtrá y actualizá el stock de todos tus productos.', `${canSeeFinancials ? `<button class="btn btn-secondary" data-action="export" data-export="inventory">${icon('download')} Exportar CSV</button><button class="btn btn-secondary" data-action="export" data-export="inventory">${icon('download')} Google Sheets</button>` : ''}${hasRole('Administrador', 'Inventario') ? `<button class="btn btn-soft-orange" data-action="open-subtract">${icon('minus')} Restar stock</button><button class="btn btn-primary" data-action="open-stock">${icon('plus')} Agregar stock</button>` : ''}`)}<div class="stat-strip" style="margin-bottom:18px"><div class="stat-box"><div class="stat-box-label">Unidades en stock</div><div class="stat-box-value">${totalUnits}</div></div><div class="stat-box"><div class="stat-box-label">Valor de inventario</div><div class="stat-box-value blue">${money(totalValue)}</div></div><div class="stat-box"><div class="stat-box-label">Stock bajo</div><div class="stat-box-value orange">${low}</div></div><div class="stat-box"><div class="stat-box-label">Sin stock</div><div class="stat-box-value">${out}</div></div></div>${renderInventoryFilters(products.length)}<div class="card table-card inventory-table-card">${products.length ? `<div class="table-scroll"><table class="data-table"><thead><tr><th>Producto</th><th>Variante</th><th>Stock</th>${canSeeFinancials ? '<th class="num">Costo</th>' : ''}<th class="num">Venta</th>${canSeeFinancials ? '<th class="num">Ganancia</th>' : ''}<th>Estado</th><th>Acciones</th></tr></thead><tbody>${products.map(renderProductRow).join('')}</tbody></table></div><div class="mobile-card-list">${products.map(renderMobileProduct).join('')}</div>` : emptyState('No encontramos productos', 'Probá cambiar los filtros o agregá un nuevo producto.', `${hasRole('Administrador') ? `<button class="btn btn-primary btn-sm" data-action="open-product">${icon('plus')} Agregar producto</button>` : ''}`)}</div>`;
+    const content = `${pageHead('Control de inventario', 'Inventario', 'Consultá, filtrá y actualizá el stock de todos tus productos.', `${canSeeFinancials ? `<button class="btn btn-secondary" data-action="export" data-export="inventory">${icon('download')} Exportar CSV</button><button class="btn btn-secondary" data-action="export" data-export="inventory">${icon('download')} Google Sheets</button>` : ''}${hasRole('Administrador', 'Inventario') ? `<button class="btn btn-soft-orange" data-action="open-subtract">${icon('minus')} Restar stock</button><button class="btn btn-primary" data-action="open-stock">${icon('plus')} Agregar stock</button>` : ''}`)}<div class="stat-strip" style="margin-bottom:18px"><div class="stat-box"><div class="stat-box-label">Unidades en stock</div><div class="stat-box-value">${totalUnits}</div></div><div class="stat-box"><div class="stat-box-label">Valor de inventario</div><div class="stat-box-value blue">${money(totalValue)}</div></div><div class="stat-box"><div class="stat-box-label">Stock bajo</div><div class="stat-box-value orange">${low}</div></div><div class="stat-box"><div class="stat-box-label">Sin stock</div><div class="stat-box-value">${out}</div></div></div>${renderInventoryFilters(products.length)}${renderGruposInventario(products, canSeeFinancials)}</div>`;
     return content;
   }
 

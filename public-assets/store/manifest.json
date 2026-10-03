@@ -1,0 +1,1444 @@
+{
+  "source": "https://www.iphonestorecordoba.com.ar",
+  "note": "Fotos del propio local, autorizadas por el usuario.",
+  "generatedAt": "2026-09-29T00:29:38.263Z",
+  "models": [
+    {
+      "model": "Adaptador Lightning Splitter",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-adaptador-lightning-splitter.png",
+      "bytes": 47077,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/adaptadores/adaptador-lightning-splitter",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7a0953dbde075abd5d049771470536dd8c0a83aa3e82602443ec4b49239d557787445.png"
+    },
+    {
+      "model": "Adaptador USB-C Lightning 20W para auto",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-adaptador-usb-c-lightning-20w-para-auto.jpg",
+      "bytes": 21226,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/adaptadores/adaptador-usb-c-lightning-20w-para-auto",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/26c3e6bb45b530f8e3f64444f675f566a9a228be743090d0ef04b6aeab54e68b87445.jpeg"
+    },
+    {
+      "model": "Adaptador USB-C to USB",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-adaptador-usb-c-to-usb.png",
+      "bytes": 56889,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/adaptadores/adaptador-usb-c-to-usb",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/13602954f88e7c6e0370648de779215e68ff12baedbf1ce551113cd46445f9cd87445.png"
+    },
+    {
+      "model": "AirPods 2da Generación",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-airpods-2da-generacion.jpg",
+      "bytes": 13723,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/auriculares/airpods-2da-generacion",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/69ec1cefd93c761df5d9d32400529cfea7e3b5b32c30cb96513e7756ee0b859587445.jpg"
+    },
+    {
+      "model": "AirPods 3ra Generación",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-airpods-3ra-generacion.png",
+      "bytes": 62955,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/auriculares/airpods-3ra-generacion",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1ff00f8228f736892db0b59287510d8c81a217a3eb05ad08b25f1dd4f9c33eaf87445.png"
+    },
+    {
+      "model": "Airpods Pro 2da Generación",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-airpods-pro-2da-generacion.png",
+      "bytes": 57260,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/auriculares/airpods-pro-2da-generacion",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/e5dedd219a08cc3670ba8f00fe70a2d217c284265c4958e5cd1e9c45e7c7a56c87445.png"
+    },
+    {
+      "model": "Apple Pencil 2da Generación",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-apple-pencil-2da-generacion.jpg",
+      "bytes": 9706,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/pencil/apple-pencil-2da-generacion",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1a4281260784d6fdf086e3dfc385761a4418f0a69ea7c1792ec87f0493c3110a87445.jpg"
+    },
+    {
+      "model": "Auriculares Earpods con conector Lightning",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-auriculares-earpods-con-conector-lightning.png",
+      "bytes": 65763,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/auriculares/auriculares-earpods-con-conector-lightning",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5d784201f69249325b72b94d002f2a9ff087f57f16be55c61436b70083f808c587445.png"
+    },
+    {
+      "model": "Auriculares EarPods USB-C",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-auriculares-earpods-usb-c.png",
+      "bytes": 167090,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/auriculares/auriculares-earpods-usb-c",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/d1ece5626126386b66a721897ad61468403870fc2bdf91933f00ce7c3a4823b387445.png"
+    },
+    {
+      "model": "Cable Lightning to USB x 1mt",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cable-lightning-to-usb-x-1mt.png",
+      "bytes": 106286,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/cable-lightning-to-usb-x-1mt",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b60b6753797eed5708419c6551972c9d2fa503ff5037a09b41f0555ccc09c9fc87445.png"
+    },
+    {
+      "model": "Cable Lightning to USB x 2mts",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cable-lightning-to-usb-x-2mts.png",
+      "bytes": 58352,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/cable-lightning-to-usb-x-2mts",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7973cf762730ef6fb888d69d6446f49f02aee6834dc1e37ba8f2a6741b0ddded87445.png"
+    },
+    {
+      "model": "Cable USB-C Lightning x 1 mt",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cable-usb-c-lightning-x-1-mt.png",
+      "bytes": 60397,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/cable-usb-c-lightning-x-1-mt",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/4024ca1238d025a7304871b0529a2e93c532104489c6bc45ee605addeaa7db6287445.png"
+    },
+    {
+      "model": "Cable USB-C Lightning x 2mts",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cable-usb-c-lightning-x-2mts.png",
+      "bytes": 78400,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/cable-usb-c-lightning-x-2mts",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b20f513162d7eaed8c01ccb19ac2bed7370fe04f869ca6683e6ef0884fd85c9b87445.png"
+    },
+    {
+      "model": "Cable USB-C to USB-C mallado x 1 mts",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cable-usb-c-to-usb-c-mallado-x-1-mts.jpg",
+      "bytes": 20507,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/cable-usb-c-to-usb-c-mallado-x-1-mts",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/db80a3cac37b4f768eddf78958dbde728621bb0c16a7ca46385f7a37a9f30bc487445.jpg"
+    },
+    {
+      "model": "Cargador MagSafe Inalámbrico",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cargador-magsafe-inalambrico.png",
+      "bytes": 44986,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cargadores/cargador-magsafe-inalambrico",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/050d35e731dcd8954c819ee9831394fffadf0b0cda0f0b35e1dbfbf792c1d10987445.png"
+    },
+    {
+      "model": "Cargador Rápido USB-C 20W ORIGINAL",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-cargador-rapido-usb-c-20w-original.jpg",
+      "bytes": 21117,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cargadores/cargador-rapido-usb-c-20w-original",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/3c5824a0b59fb04beb0f54b27ebb2c15855a703ccaed20f02a6a96f4943f2c3a87445.jpg"
+    },
+    {
+      "model": "Case Painting",
+      "status": "ok",
+      "variants": 4,
+      "file": "/public-assets/store/store-case-painting.png",
+      "bytes": 418224,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/case-painting",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f57145db57eddf3dd8f10833db5de5bdfc9e556880702f5cc66f573b959d062787445.png"
+    },
+    {
+      "model": "Combo cable + cargador ORIGINAL",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-combo-cable-cargador-original.jpg",
+      "bytes": 34698,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/combo-cable-cargador-original",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/fb70cb7bc9e97ca0c9727c15676b5abcf62c856beb8c65933ce235ef1d52567187445.jpg"
+    },
+    {
+      "model": "COMBO: Funda Clear MagSafe + Battery Pack",
+      "status": "ok",
+      "variants": 9,
+      "file": "/public-assets/store/store-combo-funda-clear-magsafe-battery-pack.jpg",
+      "bytes": 75969,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cargadores/combo-funda-clear-magsafe-battery-pack",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/3e2192231b3abb622227e2d9712a522c2d48eb5be1fc2836cfd994e7cea00e5887445.jpg"
+    },
+    {
+      "model": "Comecable Animalitos",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-comecable-animalitos.png",
+      "bytes": 508550,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cables/comecable-animalitos",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/376bd378eec55e9226bc962cead7ec5f240aaf4fcb4d0f36020aaef966bc07dd87445.png"
+    },
+    {
+      "model": "Funda Antishock Transparente",
+      "status": "ok",
+      "variants": 22,
+      "file": "/public-assets/store/store-funda-antishock-transparente.png",
+      "bytes": 122890,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/antishock-transparente/funda-antishock-transparente",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/bb2a6318e787f8084c0cf596e658b4d961b3f32bc525341c06d3c6a02ab75f8f87445.png"
+    },
+    {
+      "model": "Funda de Silicona para Airpods",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-funda-de-silicona-para-airpods.png",
+      "bytes": 95546,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/funda-de-silicona-para-airpods",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/afa7d525f62d69fb216b9e94a3815232a1bba13373764dec33f8aa8516415c5187445.png"
+    },
+    {
+      "model": "Funda de Silicona para AirPods 2da Generación animados",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-funda-de-silicona-para-airpods-2da-generacion-animados.png",
+      "bytes": 157515,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/funda-de-silicona-para-airpods-2da-generacion-animados",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/63c49dfff31fedec685ca65a493147ad0bfa3c7d260ff9d1328fe678837f1f9f87445.png"
+    },
+    {
+      "model": "Funda de Silicona para AirPods Pro, 2da gen, 3ra gen animados",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-funda-de-silicona-para-airpods-pro-2da-gen-3ra-gen-animados.png",
+      "bytes": 181144,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/funda-de-silicona-para-airpods-pro-2da-gen-3ra-gen-animados",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/be7ec40a368199358abfdf182fb9daafa687a39294c40594cdc641103865835787445.png"
+    },
+    {
+      "model": "Funda Magnetica de colores MagSafe",
+      "status": "ok",
+      "variants": 22,
+      "file": "/public-assets/store/store-funda-magnetica-de-colores-magsafe.jpg",
+      "bytes": 60905,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/clear-magsafe/funda-magnetica-de-colores-magsafe",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/82849ca07cde47822d1abdd62b209ebc5b96a5c643f85b1073f7b87192c01f9e87445.jpg"
+    },
+    {
+      "model": "Funda Magnetica Transparente MagSafe",
+      "status": "ok",
+      "variants": 9,
+      "file": "/public-assets/store/store-funda-magnetica-transparente-magsafe.png",
+      "bytes": 231017,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/clear-magsafe/funda-magnetica-transparente-magsafe",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/d99eeb252ccac274d5f2b5b81c55b209f4c4ef18349740dc7c5adf676a2f981b87445.png"
+    },
+    {
+      "model": "iPad 10.2 9na Generación",
+      "status": "sin-fuente",
+      "variants": 4
+    },
+    {
+      "model": "iPad Mini",
+      "status": "ok",
+      "variants": 5,
+      "file": "/public-assets/store/store-ipad-mini.jpg",
+      "bytes": 35654,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/ipad/ipad-mini",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c59e0087d3e7a04fe2d870e3004b0b4121a737a1c6f0ddab0dd51a2649b832c287445.jpg"
+    },
+    {
+      "model": "iPhone 11",
+      "status": "ok",
+      "variants": 8,
+      "file": "/public-assets/store/store-iphone-11.jpg",
+      "bytes": 23664,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-11",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/a2e4fc77dc1e80166f958a655e6581111ddb3b4fecefa0daa9f5a100b7c845c187445.jpg"
+    },
+    {
+      "model": "iPhone 13",
+      "status": "ok",
+      "variants": 5,
+      "file": "/public-assets/store/store-iphone-13.png",
+      "bytes": 160736,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-13",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/63ff84905e225e0dc06ea489e8faef4cf77dcdba6887afdc8cc844a204b9023c87445.png"
+    },
+    {
+      "model": "iPhone 14",
+      "status": "ok",
+      "variants": 7,
+      "file": "/public-assets/store/store-iphone-14.png",
+      "bytes": 139508,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-14",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/21b35995c944b4c4a56e3ceb68d4d50fb537da4bc18d54d3645434a18ed7d46787445.png"
+    },
+    {
+      "model": "iPhone 15",
+      "status": "ok",
+      "variants": 7,
+      "file": "/public-assets/store/store-iphone-15.png",
+      "bytes": 135685,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-15",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/6d93104606735263e684ae13850a256406e560da2297d025eed494f1c6acbc2387445.png"
+    },
+    {
+      "model": "iPhone 15 Celeste",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-iphone-15-celeste.jpg",
+      "bytes": 92652,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-celeste",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5727c076b8cb2e2d127d5aa61c2b70212326286196a71d4a75a0a419f29989ef87445.jpg"
+    },
+    {
+      "model": "iPhone 15 Pro Max",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-iphone-15-pro-max.png",
+      "bytes": 156372,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-15-pro-max",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/15d2cc57b698b84b1f5c89a1ca8e8aa2cdd4691f15bb48d397d7d4672f3baae687445.png"
+    },
+    {
+      "model": "iPhone 15 Pro Turquesa",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-iphone-15-pro-turquesa.png",
+      "bytes": 401918,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/iphone-15-pro-turquesa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/290db54b5de678a58733a9d1968f9f933ec4eb45bd98cb3ad88a5ebacd1120fe87445.png"
+    },
+    {
+      "model": "iPhone 16e",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-iphone-16e.png",
+      "bytes": 122299,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-16e",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/a7cc6732ceddbe38f0f64ae1f434c045903af00fc08fddd9d48ebc5861a584cd87445.png"
+    },
+    {
+      "model": "iPhone 17",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-iphone-17.png",
+      "bytes": 167614,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0c94e9ffa22afc53b17dfe879617a7f4e6b3b018d5f30e8a7e27f12754e1e5f687445.png"
+    },
+    {
+      "model": "iPhone 17 Pro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-iphone-17-pro.png",
+      "bytes": 168091,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17-pro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/d540a3ff6447db1338a11f20b14ff6e9a01822272bc2e3a629d4b227700a0efe87445.png"
+    },
+    {
+      "model": "iPhone 17 Pro Max",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-iphone-17-pro-max.png",
+      "bytes": 202367,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/iphone-17-pro-max",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b4223f9d12f395c5bffdd1ced2fb3cb0d765335716996f9d3358227193923f2787445.png"
+    },
+    {
+      "model": "JBL GO 3",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-jbl-go-3.png",
+      "bytes": 301971,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/parlantes/jbl-go-3",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f6128319f0a6743cc6edcdb5f28d5e4c2423ada9f2678ecb8370145c4d9e352887445.png"
+    },
+    {
+      "model": "MacBook Air M1",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-macbook-air-m1.png",
+      "bytes": 240161,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/macbook/macbook-air-m1",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/fe3612e039fcac03637e966a459d1ee9f4350b921777605f318ac84a9c0b3a2787445.png"
+    },
+    {
+      "model": "MacBook Pro M1",
+      "status": "ok",
+      "variants": 5,
+      "file": "/public-assets/store/store-macbook-pro-m1.png",
+      "bytes": 156441,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/macbook/macbook-pro-m1",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ee56efe989824db886b476d3c5dd24aaa837d4f90614a714814506c3b948bac587445.png"
+    },
+    {
+      "model": "MacBook PRO M2",
+      "status": "ok",
+      "variants": 5,
+      "file": "/public-assets/store/store-macbook-pro-m2.jpg",
+      "bytes": 22782,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/macbook/macbook-pro-m2",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/60befba7d68efb88c1a73c2763649858f0fc68c60f2fa30a425135b2e3afa8ba87445.jpeg"
+    },
+    {
+      "model": "MagSafe Battery Pack Certificado",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-magsafe-battery-pack-certificado.png",
+      "bytes": 24275,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/cargadores/magsafe-battery-pack-certificado",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ecfebf4cc70af57e26cbda52ad2154aa57ff7b0ac168b623b012a758e5f2ad9187445.png"
+    },
+    {
+      "model": "PlayStation 5",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-playstation-5.jpg",
+      "bytes": 29218,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/iphone/playstation-5",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/48c1663a50f27a875dbddf7d1b71cd66c74777dcd34e1b84281aed49bde71b1087445.jpg"
+    },
+    {
+      "model": "Potencia en todos sus colores.",
+      "status": "sin-fuente",
+      "variants": 5
+    },
+    {
+      "model": "PROMO! Funda transparente + Vidrio templado 9D",
+      "status": "ok",
+      "variants": 22,
+      "file": "/public-assets/store/store-promo-funda-transparente-vidrio-templado-9d.png",
+      "bytes": 353489,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/antishock-transparente/promo-funda-transparente-vidrio-templado-9d",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/324640d121086c9fcdf2df687a24c69cfbea7ac8e57b8b3d196c4758de9eaf0087445.png"
+    },
+    {
+      "model": "Protectores para cámara vidrio templado",
+      "status": "ok",
+      "variants": 8,
+      "file": "/public-assets/store/store-protectores-para-camara-vidrio-templado.png",
+      "bytes": 225794,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/vidrio-templado/protectores-para-camara-vidrio-templado",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b89404c5fe722f5f82f747748363939ad5c924d3703099da72c64eb4300923a187445.png"
+    },
+    {
+      "model": "Protectores para cámara vidrio templado iPhone 13 Pro y 13 Pro Max",
+      "status": "ok",
+      "variants": 5,
+      "file": "/public-assets/store/store-protectores-para-camara-vidrio-templado-iphone-13-pro-y-13-pro-max.png",
+      "bytes": 335635,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/vidrio-templado/protectores-para-camara-vidrio-templado-iphone-13-pro-y-13-pro-max",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b3102a2d6d1c1ee40b6a2f1944206e327f494d2ff18361208c2b3212cd40f8e487445.png"
+    },
+    {
+      "model": "Silicone Case con Tira para colgar",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-silicone-case-con-tira-para-colgar.png",
+      "bytes": 118141,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/silicone-case-con-tira-para-colgar",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/a99d66430e0c1a74a3eca7d094a29587de3bc0270c18163e7a18b9911380a5a887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Amarillo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-amarillo.png",
+      "bytes": 406968,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-amarillo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/745d7889b81a1ae7576ce300beec9a475c39393314d1bca18f7299c47a37f56987445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Amarillo Maíz",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-amarillo-maiz.png",
+      "bytes": 376301,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-amarillo-maiz",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1e9deb884842f83bf0fdaea0437037b921db7be1549756d54f81d4346b9bffdd87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Azul",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-azul.png",
+      "bytes": 443478,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/6dcbe4a34e4a4f8889bd6bdb5dccf80830cf46c2a11c22e009f980c5d220b53987445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Fucsia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-fucsia.png",
+      "bytes": 649631,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9bf899745823ce674e62f6b893c79b02835fb6ae290a3fdf296a88dfb99b193887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Gris Claro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-gris-claro.png",
+      "bytes": 409702,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-gris-claro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b7fa186fab073a71a5cbfa2e1751b684ff8de8028d8295ac43c97b6d408ddf1b87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Naranja",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-naranja.png",
+      "bytes": 449545,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-naranja",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cab32599280ff2710999333e2a815ce3149768e7da2dbcfadd6802f9e4a8b2d687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Naranja claro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-naranja-claro.png",
+      "bytes": 409822,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-naranja-claro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9179a083cc0b498cc457a294ce874678397c9ddd5a46dd01a4c07134aec44c4b87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Rosa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-rosa.png",
+      "bytes": 704939,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-rosa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/91b2f86ea21fdf51da7352d479cba3e4c13503dbb784b4fbcf8b15bd7664b1e587445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Salmón Fluor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-salmon-fluor.png",
+      "bytes": 442397,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-salmon-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c0d3b2cdafda9d57176c5fb0c045d9a97f34655b2d6f4e498c13376bdb5d7d8b87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Turquesa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-turquesa.png",
+      "bytes": 453206,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-turquesa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/2d5136fc25b2a63f92147639c1b27a918f1635f09b6e48e0a028c6e6e0956fbb87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Verde Neon",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-verde-neon.png",
+      "bytes": 470794,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-verde-neon",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5b6d888f74ecd602e15c4262c1f06e6d20096f384f565e926b30c6e21ea9225787445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 11 Color Violeta",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-11-color-violeta.png",
+      "bytes": 533477,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-11/silicone-case-iphone-11-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9520edab462bc5ab3d0ecbac5add271f5af567bcc4ef23c72bf1ff2e83b1329a87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Café Claro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-cafe-claro.png",
+      "bytes": 475610,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-cafe-claro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/d56f345fc932f4a99383b22d0d0d1ef0779e58798650e50662213ea592c7163f87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Durazno",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-durazno.png",
+      "bytes": 386764,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-durazno",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/e95811581f3450f7950beb9a454b060f338a4ac7ba6eefeab14faccb6aea806e87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Fucsia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-fucsia.png",
+      "bytes": 620200,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/245b95df851576a7e87ea2b9e3b99ffd440baefac922e67e5ac54312ec1dc9cf87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Naranja",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-naranja.png",
+      "bytes": 664956,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-naranja",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f2aefe832496a426014708f8037e00706ab56f13cc414c8d9c591a17be126f3387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Nude",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-nude.png",
+      "bytes": 402576,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-nude",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/a449090b353173eef89ab6567dfc67a0d5e309bf4581d27405744b061c476f2d87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Color Violeta",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-violeta.png",
+      "bytes": 407921,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9ff6d8148872828121f0b23bc1a16db1a6a0c747b81178f2bb2942cbd36bd2c887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12 - 12 Pro Salmón Fluor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-salmon-fluor.png",
+      "bytes": 492394,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-salmon-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f14a5a4f753a157babdb0f6bc7886310bbe9e38a718d8c247d5168e87e2139dd87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12-12 Pro Color Amarillo Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-amarillo-pastel.png",
+      "bytes": 460078,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-amarillo-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/88c140393cfe7dfdafa7743570e389b6b941b1f905ca42d336aa7e04ee0ed8d487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 12-12 Pro Color Celeste Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-12-12-pro-color-celeste-pastel.png",
+      "bytes": 450870,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-12-12-pro/silicone-case-iphone-12-12-pro-color-celeste-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5aeff1130b889cf5cc75c821fb37213c455394eaec2000da854bb4fe93aaaeba87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Amarillo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-amarillo.png",
+      "bytes": 650395,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-amarillo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/76258e107b1c95688895d69d89965d8068bae780e42aec7c0bc05e4a4475c1aa87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Azul",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-azul.png",
+      "bytes": 429236,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cacca480cbc29b8a6012d7d1f6ece972ef84660c09ce98d571c3cb4e795e6d5187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Celeste Acero",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-celeste-acero.jpg",
+      "bytes": 65335,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-celeste-acero",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/e7264456c4d8e3549b7a54430907b59d7b3cd9a7df47bc7b6bd353efce75d93587445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Coral Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-coral-pastel.jpg",
+      "bytes": 59347,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-coral-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/36313ef7a1798d5a62736f022a4e8fb61edef51dadce03eb308df05791f96cf187445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Lila",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-lila.jpg",
+      "bytes": 59392,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-lila",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0ecf82012e31bb6950d5e4fbdd7df63dacb9d402f245341bb9fcab09204bd49787445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Negro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-negro.png",
+      "bytes": 471081,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-negro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/633e6968144a98118afd803c4dcb7d65ffb867c12c79212668299b4f595f15f887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Rojo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-rojo.png",
+      "bytes": 713421,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-rojo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ad6553cff2383a6abe3d8533cf0fd2deb1d1ff3ee586fd2a2ba5c4a75e935cdd87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Rosa Neon",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-rosa-neon.png",
+      "bytes": 504438,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-rosa-neon",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ddf939231ea2be97300959183617be677fccea9fcd565b4c1105d6613125026587445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Verde Lima",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-verde-lima.jpg",
+      "bytes": 61127,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-verde-lima",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b21a000a1065081e0d98fd492320b4d1f56ce8e024e1d3875753a0bb2b0b52bb87445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Verde Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-verde-oscuro.png",
+      "bytes": 539568,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-verde-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9ea5ef3f8e4dc05950e6230788d285bfb3e8414b3599a62b4f0336fe1720d85287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Violeta",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-violeta.jpg",
+      "bytes": 64359,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cc6fdb4d8b4142684fc9a740505af89c70cad20614f201b7eb05f34261c8fa4387445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Color Violeta Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-color-violeta-oscuro.jpg",
+      "bytes": 64500,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-color-violeta-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/2ff9604b3c8fc479f18bda540775b8c608d84e662ff46a4dd52e938eeedb12dd87445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Azul",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-azul.png",
+      "bytes": 755178,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/32907eaa08eaa058935b8480eac9297610a7d2294e3d791bbf69a1373c0a5a9487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Blanco",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-blanco.png",
+      "bytes": 722070,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-blanco",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/865eb1d44340f67383f61b6883d33e829e9785a2ecb52c2b137d317f006e503587445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Bordo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-bordo.png",
+      "bytes": 730644,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-bordo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/254bcee5a917ad19e34d2532b3d0679d3310e828acd3f7742e35c2277bccaf7387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Celeste",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-celeste.png",
+      "bytes": 441382,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-celeste",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/324b53bb8f9b1091a1977676366aff446b935e165f0bea4a46f007f99cc5c8b387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Fucsia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-fucsia.png",
+      "bytes": 714495,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/6ef4049768f7f91b93ac672c3829069afbbba0789e68b6f49a49de632771ec2387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Negro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-negro.png",
+      "bytes": 480089,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-negro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5d6f12e7cc02abd80aa03bd5f9e3e7d81518a3704ac8062ebaebf5609dabe6bc87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Nude",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-nude.png",
+      "bytes": 710131,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-nude",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cddf76ab46035cb2d16ed323ee43c4b3f9771c3cb58aaf6a493d76cf5909bc4687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Rainbow",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-rainbow.jpg",
+      "bytes": 72652,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-rainbow",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/00bdbbd2a422f6356129c6896bf81fe6b4697a8b975242d194f8148d8b9fac0387445.jpeg"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Turquesa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-turquesa.png",
+      "bytes": 466716,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-turquesa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/afc5589527ecbd4d8e7fc55a44217b03b95a095f3930ab2f35e82f7b9168c9c787445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Color Verde",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-color-verde.png",
+      "bytes": 440686,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-color-verde",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/47112533b3291a39fa304bd0a8f2d2d918693f83cb962b9e72c968431a1c996e87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Lila",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-lila.png",
+      "bytes": 389167,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro/silicone-case-iphone-13-pro-lila",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/d41f24dd6a717e479d8703eec921ebc46c0b89a9b22c024b373670fdb460bc9287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max color Amarillo brillante",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-amarillo-brillante.png",
+      "bytes": 414170,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-amarillo-brillante",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/a4ebb259cbedc03436833d21331a70116dc9ded17d6c00435f38c6887d1d072087445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Amarillo claro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-amarillo-claro.png",
+      "bytes": 468141,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-amarillo-claro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f18f5e12eeaef9ac2cfe570b656c280a7fd2650678a9664e89f1153faced753c87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Azul",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-azul.png",
+      "bytes": 774029,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/729adb1ded375e9f67ca4518b02a544914bceb12af99fa9d0878612fd0bea3ea87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Fucsia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-fucsia.png",
+      "bytes": 673367,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/793dfae6aa18104aff82536734b05ed42746af3c6d6e3f7a0f80f26d2834ea1387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Rojo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-rojo.png",
+      "bytes": 463435,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-rojo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/393496daf378b9c29cde295cb391d49ec05e362c5cfbf645f7065d0be0b8ab6a87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Rosa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-rosa.png",
+      "bytes": 463640,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-rosa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/73bc424a3f11f12e7189a747079015bdd15b3f6c7f0026f49e20508e6b81306287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Pro Max Color Verde Oliva",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-pro-max-color-verde-oliva.png",
+      "bytes": 635149,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13-pro-max/silicone-case-iphone-13-pro-max-color-verde-oliva",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/58083c5d83719961732eed2bf6b97e81267a2d71638f13f5e04afd7f3a1fe16287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 13 Salmón Fluor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-13-salmon-fluor.jpg",
+      "bytes": 55967,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-13/silicone-case-iphone-13-salmon-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7cabf4c64c178a68737ae82dc1982563c64d27cc54cb6a5f91c6b16f7a34adc387445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Azul Francia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-azul-francia.jpg",
+      "bytes": 63964,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-azul-francia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0db54531cda4d7ad50bb24782437bf3a056f9a2e9546a3e6db071ab8bf3eae6e87445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Celeste",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-celeste.png",
+      "bytes": 435292,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-celeste",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ea1b496e9a7f747462b8ced4474d5af91438df2590a702f481a470788885ab1887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Celeste Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-celeste-oscuro.jpg",
+      "bytes": 65923,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-celeste-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1c9f44bc997e3b8667975573c5b5e37568a335f8a850266735b23a8cc625399387445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Durazno",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-durazno.png",
+      "bytes": 431554,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-durazno",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c01da191395ff4680b0d934f6db14506f314ddee234f2b231ca4b242ab1e5e9887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Fucsia",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-fucsia.jpg",
+      "bytes": 53311,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f08b437e49fbf6ee3c9f76b8ee1a57995133ae9e5ffade8f2696292b48a3174b87445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Nude",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-nude.png",
+      "bytes": 433871,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-nude",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/27499c6f8be77271a31a72774579a8e87e0490ac71962cdf373fca60faf76baa87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Rosa Fluor",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-rosa-fluor.jpg",
+      "bytes": 54652,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-rosa-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/bdf996ebf7a9cb26b33fd2baef866bdc3a4622732e935d7ef9aa79013ce4930987445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Verde",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-verde.png",
+      "bytes": 420544,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-verde",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c110c26241c277c79a82521703f8e5749e79c124e04c8fe1d7fde498821c71a287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Verde Fluor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-verde-fluor.png",
+      "bytes": 484936,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-verde-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/77c52bf021c7dcfb6cc47d2f2c3c2308f08302d59e9a88b13a9fc0596cd9031787445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Color Verde Militar",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-color-verde-militar.png",
+      "bytes": 464019,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-color-verde-militar",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7b5e9f3013fd3cd55b17b6aee5026e5f96c4bcb8e295de900748a7fccc00212e87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Amarillo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-amarillo.png",
+      "bytes": 458893,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-amarillo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/509fcffa4a83e698466339c6858ab5ec93484c16f10035bf4b2ad7299261dae487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Celeste",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-celeste.png",
+      "bytes": 404253,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-celeste",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/157478da15bf74547e1c43263359bc8bc59649bc564c6384bd3caa662dfea1c387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Gris Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-gris-oscuro.jpg",
+      "bytes": 58501,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-gris-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/748e0d00825a2223d3d7c657b3292e56a6c994e01cc416f0984fbb6b8e97990187445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Magenta",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-magenta.png",
+      "bytes": 442713,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-magenta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cd2e90b86ee1ffbe5e73c7dd9c18366dd58b577eb7fa5dcd14589a45f38a206187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Rojo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-rojo.png",
+      "bytes": 437128,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-rojo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/582cdd4e637f79d1afcb8ae20de520c7fa1a58129646af035d63bf811c8d715387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Rosa Barbie",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-rosa-barbie.png",
+      "bytes": 414246,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-rosa-barbie",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b7819fbf23f0750efe48e2f6579a0a541ecde71e442661178d619f6e395a307587445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Turquesa Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-turquesa-pastel.png",
+      "bytes": 428495,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-turquesa-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b95c23b191d3b93933e5f73f947f4bb24741e2b8ff97c6308fd7c78d7fee054c87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Verde Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-verde-oscuro.png",
+      "bytes": 520711,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-verde-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1d31c4839db4eaf23b9ad0dca28e3ee8f5d6b030157869f66a08468a4d76d57087445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Color Violeta",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-color-violeta.png",
+      "bytes": 538960,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro/silicone-case-iphone-14-pro-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/da445ed73698864b25152c2bca0d4a3f76cf09207f56e3bee564c6e59c1e0d8087445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Amarillo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-amarillo.png",
+      "bytes": 461089,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-amarillo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0ca26833275dad3b710a2230fef99cad9165ce1e9894a0f4945540df139e8cda87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Amarillo Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-amarillo-pastel.png",
+      "bytes": 410160,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-amarillo-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ea9ea99acaa0c279550b09cb82e114845fd16cc61e16a2ff17595b30e2a6e7e187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Azul",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-azul.png",
+      "bytes": 441819,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/e618d67ce8088e5e23c93d928cc44fb6974e8285bd9527a6e8fcc1ce6006a88b87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Blanco",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-blanco.png",
+      "bytes": 365853,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-blanco",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c4b797787f3be41696ca4a7122048def2a3363dd69705d73588def6bfe6f2f3087445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Durazno",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-durazno.png",
+      "bytes": 422897,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-durazno",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7ac4aab704df68b5363a32a8366f2e95eb468b42432199c806330f0aef522bc187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Fucsia oscura",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-fucsia-oscura.png",
+      "bytes": 468812,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-fucsia-oscura",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/71ca57e5da94ab22249668b94c5f34a8bfdf946fe23ab76bbccb74936aa8dc4f87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Naranja",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-naranja.png",
+      "bytes": 474056,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-naranja",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/69c894cfe93b53a1632356df501fc38f9f9c2fca683bde60ecdd0520c0e4707387445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Rosa BARBIE",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-rosa-barbie.png",
+      "bytes": 428705,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-rosa-barbie",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/8d5c10fb7de29f0489636ef7e98a71931ffbe65d0a2021cdb6d5f8cec657af8c87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Salmón flúor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-salmon-fluor.png",
+      "bytes": 431772,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-salmon-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/219e16a319e7debee6accad7615e302d2ac004eae45e9833487872a4d3e2fc2887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Turquesa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-turquesa.png",
+      "bytes": 462395,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-turquesa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/65a74ec3cf7e188186e2df7bf55fea2e4d2174be9f5b2cbe05d485901db7eedd87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Pro Max Color Verde Militar",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-pro-max-color-verde-militar.png",
+      "bytes": 464710,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14-pro-max/silicone-case-iphone-14-pro-max-color-verde-militar",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/18daf0f7be12cccd0239efe741ea1601eccd94ba47bdc0c534871ae7071b698687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 14 Rosa Oscuro",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-14-rosa-oscuro.jpg",
+      "bytes": 57805,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-14/silicone-case-iphone-14-rosa-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/4fbd90225a841fff9ab9652a722ad22cd4e4d3a8a20dbd239d60cdf14b426f3f87445.jpg"
+    },
+    {
+      "model": "Silicone Case iPhone 15 color Lila",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-color-lila.png",
+      "bytes": 427468,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15/silicone-case-iphone-15-color-lila",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/969db35d7108f75f06a3a7796a7c71bbbb35c0e84aa2ed3bada94646c07783fe87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 color rosa",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-color-rosa.png",
+      "bytes": 455231,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15/silicone-case-iphone-15-color-rosa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/55eb414914608e12a76659bd84cc33ca9f84edb9d75977e556ec8a995085bd6687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 color Salmón",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-color-salmon.png",
+      "bytes": 481195,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15/silicone-case-iphone-15-color-salmon",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/4ce57c9c85ec2b2ea1b527b3b481480e98fe1553413da4bc4c816698b6fcad0487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 color Violeta",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-color-violeta.png",
+      "bytes": 422956,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15/silicone-case-iphone-15-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/3c87b346c8ac4e94980c7a7436939b73bef1fc3a173ff199455680de44f6764187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro color Bordo oscuro",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-color-bordo-oscuro.png",
+      "bytes": 510916,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro/silicone-case-iphone-15-pro-color-bordo-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0b4334d99efbd276cca8eccf09bce05a133fcbf09e203f9223fd9f674569fcf487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro color Fucsia",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-color-fucsia.png",
+      "bytes": 520304,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro/silicone-case-iphone-15-pro-color-fucsia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c7b0bb43ce1f0a2ad2ec44d12752942a7b4b460ca43374682d5e176b45405a6787445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro color lila",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-color-lila.png",
+      "bytes": 507326,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro/silicone-case-iphone-15-pro-color-lila",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/ad52473de3fe9ded5b3c499a8e0a5701f8efc2484b89aee9241e5eb5f3dc645f87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Color Negro",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-color-negro.png",
+      "bytes": 532762,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro/silicone-case-iphone-15-pro-color-negro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/95f7c0a881e855425a5ff2846d726e5b32b76675ddab55f57e83e53528004b7987445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro color Violeta",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-color-violeta.png",
+      "bytes": 396179,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro/silicone-case-iphone-15-pro-color-violeta",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/6e1458b9bef752efbaff54e3ee70c1b461d18c73e302535fb2ad85772cdac21887445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Max color Azul francia",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-max-color-azul-francia.png",
+      "bytes": 515677,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro-max/silicone-case-iphone-15-pro-max-color-azul-francia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/e024faf78cbd1aec071a14ef2534e7cb546092a6211c57d9b162ba3c5612a94687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Max color Azul oscuro",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-max-color-azul-oscuro.png",
+      "bytes": 496647,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro-max/silicone-case-iphone-15-pro-max-color-azul-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/1405857b1ce7f1b4c93fad53ffcfa618c14285e3e24308467d421f2f5d78913487445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Max color Fucsia oscuro",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-max-color-fucsia-oscuro.png",
+      "bytes": 507012,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro-max/silicone-case-iphone-15-pro-max-color-fucsia-oscuro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/7f72f55cf54b868c6e65c1f3b0b240d5358a18372e3f4ffda3fa8942c4f15d1587445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Max Color Negro",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-max-color-negro.png",
+      "bytes": 454680,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro-max/silicone-case-iphone-15-pro-max-color-negro",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/8e2849de01f6c689235cd8e880383106f66e20fb99beeeb9afba4ca2b05300c987445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 15 Pro Max Color Roja",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-silicone-case-iphone-15-pro-max-color-roja.png",
+      "bytes": 416307,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-15-pro-max/silicone-case-iphone-15-pro-max-color-roja",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/8eb6b05d219bcdb71d9407c423c10ff6e8da4f7b82dc0b364267099c9fe67f7687445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 7 8 SE 2022 Color Rojo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-7-8-se-2022-color-rojo.png",
+      "bytes": 706912,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-7-8-se/silicone-case-iphone-7-8-se-2022-color-rojo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/5a1d6e0848d6e2eaa9c9f715f8557ae9e74a60cbed6230487f81221e8388251d87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-7-8-se-2022-color-rosa.png",
+      "bytes": 737207,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-7-8-se/silicone-case-iphone-7-8-se-2022-color-rosa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c519055769f586f75ce3aefe3e3ae96c7dbaf722b31ea9eabbaa796792c84b1d87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 7 8 SE 2022 Color Rosa Flúor",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-7-8-se-2022-color-rosa-fluor.png",
+      "bytes": 470347,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-7-8-se/silicone-case-iphone-7-8-se-2022-color-rosa-fluor",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/9046720cde22fe694ca07d3f4c95acb3a7151abfaf196e8b93e404d2d3c8096f87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 7 8 SE 2022 Color Verde",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-7-8-se-2022-color-verde.png",
+      "bytes": 719392,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-7-8-se/silicone-case-iphone-7-8-se-2022-color-verde",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c4c31ea413977f91263f4f0f06ec1b11c2489a3280260d51a0515bdbad49ad0787445.png"
+    },
+    {
+      "model": "Silicone Case iPhone 7 8 SE 2022 Salmón Coral",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-7-8-se-2022-salmon-coral.png",
+      "bytes": 636281,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-7-8-se/silicone-case-iphone-7-8-se-2022-salmon-coral",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/b3fef2c283e6b6079f744ba2d910b9aef355b62a9fd2789b6d323fdd5624a6df87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone Xr Color Amarillo",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-xr-color-amarillo.png",
+      "bytes": 694197,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-xr/silicone-case-iphone-xr-color-amarillo",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/f6f43295b54e7875cee91bc20e51e695af42388637fa668d1d5dab2373956f3187445.png"
+    },
+    {
+      "model": "Silicone Case iPhone Xr Color Azul",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-xr-color-azul.png",
+      "bytes": 814852,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-xr/silicone-case-iphone-xr-color-azul",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/0a3c89619220a4dc93033e700188981cc7e15226d6f44deca67f1a8b9d1dfa8d87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone Xr Color Celeste Pastel",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-xr-color-celeste-pastel.png",
+      "bytes": 668350,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-xr/silicone-case-iphone-xr-color-celeste-pastel",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/cf16afa50d25af2617b366ce3c6ac21ed04c150251d26328f2e740e3a235b70d87445.png"
+    },
+    {
+      "model": "Silicone Case iPhone Xr Color Naranja",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-xr-color-naranja.png",
+      "bytes": 725968,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-xr/silicone-case-iphone-xr-color-naranja",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/3b94bf8cd5d4957db6c634a0c3172f5f004bc7dbf32395eb3abf1e42aa4c419287445.png"
+    },
+    {
+      "model": "Silicone Case iPhone Xr Color Rosa",
+      "status": "ok",
+      "variants": 2,
+      "file": "/public-assets/store/store-silicone-case-iphone-xr-color-rosa.png",
+      "bytes": 686147,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/fundas/silicone-case/iphone-xr/silicone-case-iphone-xr-color-rosa",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/afde387315a22960613c63dd35c0c0acbdb71c863512c8cf9eba27bc80a0aeb487445.png"
+    },
+    {
+      "model": "Todo pantalla. Todo color. Anota aquí. Teclea allá. Te acompaña a todas.",
+      "status": "sin-fuente",
+      "variants": 6
+    },
+    {
+      "model": "Vidrio Templado 9D",
+      "status": "ok",
+      "variants": 20,
+      "file": "/public-assets/store/store-vidrio-templado-9d.png",
+      "bytes": 234198,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/vidrio-templado/vidrio-templado-9d",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/af75bfc5a46fbeb9bb57ac5860565692d3206564feab97e72b6942e3d3288df687445.png"
+    },
+    {
+      "model": "Vidrio Templado Anti Espía",
+      "status": "ok",
+      "variants": 6,
+      "file": "/public-assets/store/store-vidrio-templado-anti-espia.jpg",
+      "bytes": 42478,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/vidrio-templado/vidrio-templado-anti-espia",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/c568d19d391fe5aacce88564aefdd6809d686e20b3e94c7a5eec01014c3a9ee087445.jpg"
+    },
+    {
+      "model": "Vidrio Templado Apple Watch 44mm",
+      "status": "ok",
+      "variants": 1,
+      "file": "/public-assets/store/store-vidrio-templado-apple-watch-44mm.png",
+      "bytes": 183251,
+      "sourcePage": "https://www.iphonestorecordoba.com.ar/accesorios/vidrio-templado/vidrio-templado-apple-watch-44mm",
+      "sourceImage": "https://d22fxaf9t8d39k.cloudfront.net/60f513aea4da3bdef186e8e75ed94bb0ce6c7209d4b97429fbf13f70b43b1de987445.png"
+    }
+  ]
+}
