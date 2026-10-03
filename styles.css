@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root {
-  --ink: #172033;
-  --ink-soft: #667085;
+  --ink: #181f2a;
+  --ink-soft: #55617a;
   --ink-faint: #98a2b3;
-  --navy: #101828;
-  --navy-2: #182338;
-  --navy-3: #24324b;
-  --blue: #3366f5;
-  --blue-dark: #2452d1;
-  --blue-soft: #eef3ff;
+  --navy: #181f2a;
+  --navy-2: #20293a;
+  --navy-3: #2b3549;
+  --blue: #0a5bcf;
+  --blue-dark: #073f92;
+  --blue-soft: #eaf1fd;
   --mint: #17a673;
   --mint-soft: #e8f8f1;
   --orange: #ef8c2f;
@@ -18,8 +18,8 @@
   --red-soft: #fff0f0;
   --purple: #8367e8;
   --purple-soft: #f2efff;
-  --line: #e6eaf1;
-  --line-2: #eef1f5;
+  --line: #dde3ec;
+  --line-2: #ecf0f5;
   --canvas: #f5f7fb;
   --white: #fff;
   --shadow-sm: 0 1px 2px rgba(16, 24, 40, .04), 0 1px 3px rgba(16, 24, 40, .04);
@@ -51,6 +51,9 @@ a { color: inherit; text-decoration: none; }
 .sidebar::after { content: ''; position: absolute; width: 230px; height: 230px; border-radius: 50%; right: -125px; bottom: 85px; background: rgba(80, 113, 241, .08); pointer-events: none; }
 .brand { display: flex; align-items: center; gap: 11px; padding: 24px 22px 22px; border-bottom: 1px solid rgba(255,255,255,.07); }
 .brand-mark { width: 35px; height: 35px; border-radius: 11px; font-size: 18px; background: linear-gradient(140deg, #5b7fff, #3159df); box-shadow: 0 8px 18px rgba(51,102,245,.28); }
+.brand-logo { width: 34px; height: 34px; object-fit: contain; background: #fff; border-radius: 9px; padding: 3px; flex: none; }
+.login-brand .brand-logo { width: 46px; height: 46px; border-radius: 12px; padding: 4px; }
+.boot-logo { width: min(190px, 46vw); height: auto; background: #fff; border-radius: 14px; padding: 10px 14px; box-shadow: var(--shadow); }
 .brand-name { color: #fff; font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: .09em; line-height: 1; }
 .brand-sub { margin-top: 4px; color: #71809b; font-size: 9px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .nav-wrap { flex: 1; overflow-y: auto; padding: 22px 12px 12px; scrollbar-width: thin; scrollbar-color: #31405b transparent; }
