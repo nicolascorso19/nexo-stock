@@ -14,6 +14,7 @@ import zlib from 'node:zlib';
 const entrada = process.argv[2];
 const salida = process.argv[3];
 const margen = Number(process.argv[4] ?? 12);
+const enReverso = process.argv.includes('--reverso');
 if (!entrada || !salida) {
   console.error('uso: node tools/preparar-logo.mjs <entrada.png> <salida.png> [margen]');
   process.exit(1);
@@ -123,9 +124,12 @@ for (let y = 0; y < outH; y += 1) {
     // transparente con una mezcla suave para que no se vea un recuadro.
     const luminancia = Math.max(r, g, b);
     const alpha = luminancia >= BLANCO ? 0 : Math.min(255, Math.round(((BLANCO - luminancia) / (BLANCO - 200)) * 255));
-    rgba[dst] = r;
-    rgba[dst + 1] = g;
-    rgba[dst + 2] = b;
+    // El azul de marca (b muy por encima de r) se conserva; el resto, que es
+    // el marino de la marca, pasa a blanco para-legged sobre fondos oscuros.
+    const esAzul = b - r > 60;
+    rgba[dst] = enReverso && !esAzul && alpha > 0 ? 255 : r;
+    rgba[dst + 1] = enReverso && !esAzul && alpha > 0 ? 255 : g;
+    rgba[dst + 2] = enReverso && !esAzul && alpha > 0 ? 255 : b;
     rgba[dst + 3] = alpha < 255 && alpha > 0 ? 255 : alpha;
   }
 }
@@ -177,4 +181,4 @@ const png = Buffer.concat([
 
 fs.mkdirSync(path.dirname(salida), { recursive: true });
 fs.writeFileSync(salida, png);
-console.log(`recortado: ${width}x${height} -> ${outW}x${outH} | fondo transparente | ${Math.round(png.length / 1024)} KB`);
+console.log(`recortado: ${width}x${height} -> ${outW}x${outH} | fondo transparente${enReverso ? ' | version en blanco para fondos oscuros' : ''} | ${Math.round(png.length / 1024)} KB`);

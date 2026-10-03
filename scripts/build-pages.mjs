@@ -34,6 +34,12 @@ fs.mkdirSync(assetsOut, { recursive: true });
 // la que no exista en disco se descarta, para no publicar un link roto.
 const copied = new Set();
 let sinFoto = 0;
+let conFicha = 0;
+// Las fichas tecnicas son datos de referencia (Wikidata, CC0), no del negocio:
+// viven en data/fichas.json y se cargan de ahi para no pegarle a Wikidata en
+// cada build.
+const fichasPath = path.join(rootDir, 'data', 'fichas.json');
+const fichas = fs.existsSync(fichasPath) ? JSON.parse(fs.readFileSync(fichasPath, 'utf8')).fichas || {} : {};
 const products = catalog.products.map((product, index) => {
   const images = [];
   for (const image of product.images || []) {
@@ -49,7 +55,9 @@ const products = catalog.products.map((product, index) => {
     images.push(`assets/${name}`);
     break; // la página muestra una foto por variante
   }
-  return { ...product, id: `p${index}`, images };
+  const ficha = fichas[product.model] || null;
+  if (ficha) conFicha += 1;
+  return { ...product, id: `p${index}`, images, ficha };
 });
 
 const business = catalog.business || {};
@@ -92,5 +100,6 @@ console.log(`  productos      : ${products.length}`);
 console.log(`  con imagen     : ${products.filter(p => p.images.length).length}`);
 console.log(`  imagenes copiadas: ${copied.size} (${Math.round([...copied].reduce((s, n) => s + fs.statSync(path.join(assetsOut, n)).size, 0) / 1024)} KB)`);
 console.log(`  enlaces rotos descartados: ${sinFoto}`);
+console.log(`  variantes con ficha tecnica: ${conFicha}`);
 console.log(`  peso total     : ${(bytes / 1024 / 1024).toFixed(1)} MB`);
 console.log(`  generado       : ${generatedAt}`);

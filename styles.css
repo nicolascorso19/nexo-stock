@@ -908,6 +908,22 @@ html:has(.public-body) { overflow-x: clip; }
 .public-pick:hover { background: var(--color-pebble); border-color: var(--color-mist); }
 .public-pick:active { transform: translateY(1px); }
 .public-pick:disabled { opacity: .5; cursor: not-allowed; }
+/* Ficha tecnica: dato de referencia, no precio. */
+.public-spec-btn {
+  align-self: flex-start; margin-top: var(--spacing-8); padding: 4px 0; cursor: pointer;
+  font: inherit; font-size: var(--text-caption); font-weight: 500; letter-spacing: var(--tracking-caption);
+  color: var(--color-link-blue); background: none; border: 0; border-bottom: 1px solid transparent;
+  transition: border-color 140ms ease, color 140ms ease;
+}
+.public-spec-btn:hover { color: var(--color-apple-blue); border-bottom-color: currentColor; }
+.public-spec-btn:focus-visible { outline: 2px solid var(--color-apple-blue); outline-offset: 3px; border-radius: 3px; }
+.public-specs { margin: 0; display: grid; gap: 0; }
+.public-specs > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: var(--spacing-16); padding: 9px 0; border-bottom: 1px solid var(--color-hairline); }
+.public-specs > div:last-child { border-bottom: 0; }
+.public-specs dt { color: var(--color-ash); font-size: var(--text-body-sm); }
+.public-specs dd { margin: 0; font-size: var(--text-body-sm); font-weight: 500; overflow-wrap: anywhere; }
+.public-specs-source { margin: var(--spacing-16) 0 0; color: var(--color-ash); font-size: var(--text-caption); }
+.public-specs-source a { color: var(--color-link-blue); }
 /* Ventana de colores */
 .public-dialog {
   width: min(560px, calc(100vw - 32px)); max-height: min(78vh, 720px); padding: 0;

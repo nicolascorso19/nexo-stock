@@ -94,6 +94,8 @@
         capacidad: [...new Set(conPrecio)].join(' · '),
         portada: primera.images?.[0] || '',
         estado: sinStock ? 'AGOTADO' : 'DISPONIBLE',
+        // La ficha es del modelo: sirve la del primer producto que la tenga.
+        ficha: familia.opciones.find(o => o.ficha)?.ficha || null,
         opciones: distintas.size > 1 ? opciones : opciones.map(o => ({ ...o, etiqueta: '' })),
         conColores: distintas.size > 1
       };
@@ -130,6 +132,7 @@
       ${varios
         ? `<button class="public-pick" type="button" data-family="${esc(familia.nombre)}">Ver ${familia.opciones.length} ${palabra}</button>`
         : waLink(`${familia.nombre} ${familia.opciones[0].etiqueta}`.trim())}
+      ${familia.ficha ? `<button class="public-spec-btn" type="button" data-ficha="${esc(familia.nombre)}">Ficha técnica</button>` : ''}
     </article>`;
   };
 
@@ -164,6 +167,19 @@
         ${waLink(nombre)}
       </li>`;
     }).join('')}</ul>`;
+    dlg.showModal();
+  };
+
+  const abrirFicha = nombre => {
+    const familia = families.find(f => f.nombre === nombre);
+    if (!familia?.ficha) return;
+    const dlg = modal();
+    dlg.querySelector('h2').textContent = `${familia.nombre} · Ficha técnica`;
+    dlg.querySelector('.public-dialog-body').innerHTML = `
+      <dl class="public-specs">${familia.ficha.filas.map(([etiqueta, valor]) =>
+        `<div><dt>${esc(etiqueta)}</dt><dd>${esc(valor)}</dd></div>`).join('')}</dl>
+      <p class="public-specs-source">Datos de <a href="${esc(familia.ficha.url)}" target="_blank" rel="noopener">Wikidata</a>, licencia libre CC0.</p>
+      ${waLink(`${familia.nombre} (ficha técnica)`)}`;
     dlg.showModal();
   };
 
@@ -219,7 +235,9 @@
 
   root.addEventListener('click', event => {
     const boton = event.target.closest('[data-family]');
-    if (boton) abrir(boton.dataset.family);
+    if (boton) { abrir(boton.dataset.family); return; }
+    const ficha = event.target.closest('[data-ficha]');
+    if (ficha) abrirFicha(ficha.dataset.ficha);
   });
 
   search.addEventListener('input', event => { query = event.target.value; render(); });

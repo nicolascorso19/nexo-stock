@@ -2,14 +2,19 @@
  * Ficha técnica de los equipos del catálogo, desde Wikidata (datos CC0: libres
  * también para uso comercial).
  *
- * No se copia nada de GSMArena: sus condiciones prohíben el scraping comercial
- * y sus fotos son suyas. Acá se leen datos abiertos y se anota el origen de cada
- * modelo, para que la ficha sea rastreable.
+ * No se copia nada de GSMArena: sus condiciones prohíben el scraping comercial y
+ * sus fotos son suyas. Acá se leen datos abiertos y se anota el origen de cada
+ * modelo para que la ficha sea rastreable.
  *
  *   node scripts/cargar-fichas.mjs
  *
- * Escribe data/fichas.json. Correlo cuando quieras refrescar los datos; el build
- * de la página los lee de ahí, así que no se consulta a Wikidata en cada build.
+ * Escribe data/fichas.json. El build de la página lo lee de ahí: no se consulta
+ * a Wikidata en cada publicación.
+ *
+ * La API de Wikidata limita las peticiones anónimas, así que el script hace dos
+ * llamadas grandes (claims de todos los modelos, etiquetas de todas las
+ * referencias) en vez de una por dato. Los identificadores están fijos porque
+ * buscar por nombre cuesta una consulta por modelo y las cuelga seguido.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -17,49 +22,45 @@ import { fileURLToPath } from 'node:url';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const salida = path.join(rootDir, 'data', 'fichas.json');
-const UA = 'NexoCatalogo/1.0 (fichas tecnicas; catalogo local)';
+const UA = 'NexoCatalogo/1.0 (fichas tecnicas de catalogo)';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-let ultimo = 0;
-async function api(params) {
-  for (let intento = 1; intento <= 4; intento++) {
-    await sleep(Math.max(0, 400 - (Date.now() - ultimo)) + 250);
-    ultimo = Date.now();
-    const res = await fetch(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ format: 'json', ...params })}`, { headers: { 'User-Agent': UA } });
-    const texto = await res.text();
-    if (res.ok && !texto.startsWith('You are making')) { try { return JSON.parse(texto); } catch { /* reintento */ } }
-    await sleep(1200 * intento);
+async function api(params, intentos = 4) {
+  for (let intento = 1; intento <= intentos; intento++) {
+    await sleep(700 * intento);
+    try {
+      const res = await fetch(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ format: 'json', ...params })}`, { headers: { 'User-Agent': UA } });
+      const texto = await res.text();
+      if (res.ok && !texto.startsWith('You are making')) return JSON.parse(texto);
+    } catch { /* reintento */ }
   }
-  return {};
+  return null;
 }
 
-// Modelo del catalogo -> candidatos de busqueda en Wikidata, en orden.
-const MODELOS = {
-  'iPhone 13': ['iPhone 13'],
-  'iPhone 14': ['iPhone 14'],
-  'iPhone 15': ['iPhone 15'],
-  'iPhone 15 Celeste': ['iPhone 15'],
-  'iPhone 15 Pro Turquesa': ['iPhone 15 Pro'],
-  'iPhone 15 Pro Max': ['iPhone 15 Pro Max'],
-  'iPhone 16e': ['iPhone 16e'],
-  'iPhone 17': ['iPhone 17'],
-  'iPhone 17 Pro': ['iPhone 17 Pro'],
-  'iPhone 17 Pro Max': ['iPhone 17 Pro Max'],
-  'MacBook Air M1': ['MacBook Air (M1, 2020)', 'MacBook Air (2020)'],
-  'MacBook Pro M1': ['MacBook Pro (M1, 2020)', 'MacBook Pro (2020)'],
-  'MacBook PRO M2': ['MacBook Pro (M2, 2022)', 'MacBook Pro (2022)'],
-  'AirPods 2da Generación': ['AirPods (2nd generation)', 'AirPods 2'],
-  'AirPods 3ra Generación': ['AirPods (3rd generation)', 'AirPods 3'],
-  'Airpods Pro 2da Generación': ['AirPods Pro (2nd generation)', 'AirPods Pro']
+// Modelo del catalogo -> identificador en Wikidata (verificado a mano).
+const IDENTIFICADORES = {
+  'iPhone 13': 'Q108118280',
+  'iPhone 14': 'Q110397828',
+  'iPhone 15': 'Q121992935',
+  'iPhone 15 Celeste': 'Q121992935',
+  'iPhone 15 Pro Turquesa': 'Q122442399',
+  'iPhone 15 Pro Max': 'Q125178718',
+  'iPhone 16e': 'Q132559447',
+  'iPhone 17': 'Q136193312',
+  'iPhone 17 Pro': 'Q136193477',
+  'iPhone 17 Pro Max': 'Q136203050',
+  'MacBook Air M1': null,
+  'MacBook Pro M1': null,
+  'MacBook PRO M2': null,
+  'AirPods 2da Generación': 'Q125552915',
+  'AirPods 3ra Generación': null,
+  'Airpods Pro 2da Generación': null
 };
-
-const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-const plano = v => String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 
 const PROPIEDADES = {
   fecha: ['P6949', 'P571', 'P577'],
   pantalla: ['P13749'],
-  tecnologiaPantalla: ['P5307'],
+  tecnologia: ['P5307'],
   procesador: ['P880'],
   sistema: ['P306'],
   almacenamiento: ['P2928'],
@@ -72,21 +73,13 @@ const PROPIEDADES = {
   colores: ['P462']
 };
 
-const etiquetaCache = new Map();
-async function etiquetaDe(id) {
-  if (etiquetaCache.has(id)) return etiquetaCache.get(id);
-  const j = await api({ action: 'wbgetentities', ids: id, props: 'labels', languages: 'en|es' });
-  const e = j.entities?.[id];
-  const valor = e?.labels?.es?.value || e?.labels?.en?.value || id;
-  etiquetaCache.set(id, valor);
-  return valor;
-}
+const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
 
-const claimDe = (claims, lista) => {
-  for (const p of lista) if (claims[p]?.length) return claims[p];
-  return null;
-};
-const valorCrudo = (claim) => claim?.mainsnak?.datavalue?.value;
+const claimDe = (claims, props) => { for (const p of props) if (claims[p]?.length) return claims[p]; return null; };
+// claimDe devuelve la lista de valores de una propiedad; estas funciones toman
+// el primero, que es el que Wikidata marca como preferido.
+const primero = lista => (Array.isArray(lista) ? lista[0] : lista) || null;
+const valorCrudo = claim => primero(claim)?.mainsnak?.datavalue?.value;
 const cantidad = claim => {
   const v = valorCrudo(claim);
   return v && typeof v === 'object' && v.amount ? Number(String(v.amount).replace('+', '')) : null;
@@ -96,86 +89,108 @@ const idsDe = claim => {
   return v && typeof v === 'object' && v.id ? [v.id] : [];
 };
 
-async function fichaDe(terminos) {
-  let entidad = null;
-  for (const termino of terminos) {
-    const j = await api({ action: 'wbsearchentities', search: termino, language: 'en', format: 'json', limit: 4 });
-    const hit = (j.search || []).find(x => plano(x.description || '').includes('iphone') || plano(x.description || '').includes('smartphone') || plano(x.description || '').includes('laptop') || plano(x.description || '').includes('computer') || plano(x.description || '').includes('headphone') || plano(x.description || '').includes('earphone'));
-    if (hit) { entidad = hit; break; }
+// 1) Claims de todos los modelos en una sola llamada.
+// Ojo: wbgetclaims acepta un solo item por vez; wbgetentities con props=claims
+// trae hasta 50 items, que es lo que hace falta para no chocar con el limite.
+const idsUnicos = [...new Set(Object.values(IDENTIFICADORES).filter(Boolean))];
+console.log(`modelos con identificador: ${idsUnicos.length}`);
+const claimsPorModelo = new Map();
+for (let i = 0; i < idsUnicos.length; i += 50) {
+  const j = await api({ action: 'wbgetentities', ids: idsUnicos.slice(i, i + 50).join('|'), props: 'claims' });
+  for (const [id, e] of Object.entries(j?.entities || {})) {
+    if (e.claims) claimsPorModelo.set(id, e.claims);
   }
-  if (!entidad) return null;
-  const claims = (await api({ action: 'wbgetclaims', entity: entidad.id })).claims || {};
-  if (!Object.keys(claims).length) return null;
-
-  const filas = [];
-  const agregar = (etiqueta, valor) => { if (valor) filas.push([etiqueta, valor]); };
-
-  const fecha = claimDe(claims, PROPIEDADES.fecha);
-  const fechaTexto = valorCrudo(fecha);
-  if (fechaTexto?.time) {
-    const [anio, mes] = fechaTexto.time.slice(0, 10).split('-');
-    agregar('Lanzamiento', mes ? `${MESES[Number(mes) - 1]} de ${anio}` : anio);
-  }
-
-  const diagonal = cantidad(claimDe(claims, PROPIEDADES.pantalla));
-  const tecnologia = idsDe(claimDe(claims, PROPIEDADES.tecnologiaPantalla));
-  const tecnologiaTexto = tecnologia.length ? await etiquetaDe(tecnologia[0]) : '';
-  if (diagonal || tecnologiaTexto) {
-    agregar('Pantalla', [diagonal ? `${diagonal}"` : '', tecnologiaTexto].filter(Boolean).join(' · '));
-  }
-
-  const cpu = idsDe(claimDe(claims, PROPIEDADES.procesador));
-  if (cpu.length) agregar('Procesador', await etiquetaDe(cpu[0]));
-
-  const sistema = idsDe(claimDe(claims, PROPIEDADES.sistema));
-  if (sistema.length) agregar('Sistema', (await Promise.all(sistema.slice(0, 2).map(etiquetaDe))).join(' · '));
-
-  const gb = (claimDe(claims, PROPIEDADES.almacenamiento) || []).map(cantidad).filter(n => n !== null && n > 1);
-  if (gb.length) agregar('Almacenamiento', [...new Set(gb)].sort((a, b) => a - b).join(' / ').replace(/(\d+) /g, '$1 GB, ').replace(/, $/, ''));
-
-  const horas = claimDe(claims, PROPIEDADES.bateria);
-  const hs = cantidad(horas);
-  if (hs) agregar('Batería', `${hs} h`);
-
-  const conector = idsDe(claimDe(claims, PROPIEDADES.conector));
-  if (conector.length) agregar('Conector', (await Promise.all(conector.slice(0, 2).map(etiquetaDe))).join(' / '));
-
-  const ancho = cantidad(claimDe(claims, PROPIEDADES.ancho));
-  const alto = cantidad(claimDe(claims, PROPIEDADES.altura));
-  const grosor = cantidad(claimDe(claims, PROPIEDADES.grosor));
-  if (alto && ancho) agregar('Medidas', [alto, ancho, grosor].filter(n => n !== null).join(' × ') + ' mm');
-
-  const peso = claimDe(claims, PROPIEDADES.peso);
-  const gramos = cantidad(peso);
-  if (gramos) agregar('Peso', `${gramos} g`);
-
-  const colores = idsDe(claimDe(claims, PROPIEDADES.colores));
-  if (colores.length) {
-    const nombres = await Promise.all(colores.slice(0, 8).map(etiquetaDe));
-    agregar('Colores de fábrica', [...new Set(nombres)].join(', '));
-  }
-
-  if (!filas.length) return null;
-  return {
-    fuente: 'Wikidata (CC0)',
-    wikidata: entidad.id,
-    url: `https://www.wikidata.org/wiki/${entidad.id}`,
-    actualizado: new Date().toISOString(),
-    filas
-  };
 }
+console.log(`fichas leidas: ${claimsPorModelo.size}`);
+
+// 2) Etiquetas de todas las referencias (CPU, sistema, colores...) en dos llamadas.
+const referencias = new Set();
+for (const claims of claimsPorModelo.values()) {
+  for (const [p, lista] of Object.entries(claims)) {
+    if (!['P880', 'P306', 'P2935', 'P5307', 'P462', 'P2916'].includes(p)) continue;
+    for (const claim of lista) for (const id of idsDe(claim)) referencias.add(id);
+  }
+}
+const etiquetaPorId = new Map();
+const listaRefs = [...referencias];
+for (let i = 0; i < listaRefs.length; i += 40) {
+  const j = await api({ action: 'wbgetentities', ids: listaRefs.slice(i, i + 40).join('|'), props: 'labels', languages: 'es|en' });
+  for (const [id, e] of Object.entries(j?.entities || {})) {
+    etiquetaPorId.set(id, e.labels?.es?.value || e.labels?.en?.value || id);
+  }
+}
+console.log(`referencias resueltas: ${etiquetaPorId.size}`);
+// Etiquetas que no se pudieron resolver (vuelven como Q123). No se publican:
+// es preferible una ficha corta a una con identificadores crudos.
+const nombre = id => {
+  const etiqueta = etiquetaPorId.get(id);
+  return !etiqueta || /^Q\d+$/.test(etiqueta) ? '' : etiqueta;
+};
+const soloValores = ids => ids.map(nombre).filter(Boolean);
 
 const fichas = {};
 const sinFicha = [];
-for (const [modelo, terminos] of Object.entries(MODELOS)) {
-  const ficha = await fichaDe(terminos);
-  if (ficha) { fichas[modelo] = ficha; console.log(`${modelo.padEnd(26)} ${ficha.filas.length} datos  (${ficha.wikidata})`); }
-  else { sinFicha.push(modelo); console.log(`${modelo.padEnd(26)} SIN FICHA`); }
-  await sleep(150);
+for (const [modelo, id] of Object.entries(IDENTIFICADORES)) {
+  const claims = id ? claimsPorModelo.get(id) : null;
+  if (!claims || !Object.keys(claims).length) { sinFicha.push(modelo); continue; }
+  const filas = [];
+  const agregar = (etiqueta, valor) => { if (valor) filas.push([etiqueta, valor]); };
+
+  // 1) Lanzamiento. Wikidata escribe los años con signo: "+2023-09-12".
+  const fecha = claimDe(claims, PROPIEDADES.fecha);
+  const momento = valorCrudo(fecha)?.time;
+  if (momento) {
+    const [anio, mes] = momento.slice(0, 10).split('-');
+    const limpio = anio.replace(/[^\d]/g, '');
+    agregar('Lanzamiento', mes ? `${MESES[Number(mes) - 1]} de ${limpio}` : limpio);
+  }
+
+  // 2) Pantalla: sólo con la medida real de la diagonal. Wikidata guarda aparte
+  // la tecnología (OLED, etc.) y sin el tamaño no sirve como dato de pantalla.
+  const diagonal = cantidad(claimDe(claims, PROPIEDADES.pantalla));
+  if (diagonal && diagonal >= 4 && diagonal <= 8) agregar('Pantalla', `${diagonal}"`);
+
+  // 3) Procesador: el dato más confiable de Wikidata para estos equipos.
+  agregar('Procesador', soloValores(idsDe(claimDe(claims, PROPIEDADES.procesador)))[0]);
+  agregar('Sistema operativo', soloValores(idsDe(claimDe(claims, PROPIEDADES.sistema))).slice(0, 2).join(' · '));
+
+  // 4) Almacenamiento: se descartan los valores sueltos (Wikidata tiene entradas
+  // de 1 y 2 GB que son ruido, no capacidades reales).
+  const gb = (claimDe(claims, PROPIEDADES.almacenamiento) || []).map(cantidad).filter(n => n !== null && n >= 16);
+  if (gb.length) agregar('Almacenamiento', [...new Set(gb)].sort((a, b) => a - b).map(n => `${n} GB`).join(' / '));
+
+  // 5) Medidas: alto × ancho × grosor. Si el grosor es absurdo (Wikidata tiene
+  // errores de unidad) se omite y se publica sólo el plano.
+  const alto = cantidad(claimDe(claims, PROPIEDADES.altura));
+  const ancho = cantidad(claimDe(claims, PROPIEDADES.ancho));
+  const grosor = cantidad(claimDe(claims, PROPIEDADES.grosor));
+  if (alto && ancho) {
+    const grosorUtil = grosor && grosor <= 20 ? grosor : null;
+    agregar('Medidas', [alto, ancho, grosorUtil].filter(n => n !== null).join(' × ') + ' mm');
+  }
+
+  const gramos = cantidad(claimDe(claims, PROPIEDADES.peso));
+  if (gramos && gramos >= 80 && gramos <= 1000) agregar('Peso', `${gramos} g`);
+
+  agregar('Conector', soloValores(idsDe(claimDe(claims, PROPIEDADES.conector))).slice(0, 2).join(' / '));
+
+  // 6) Colores: se toman todos los valores de la propiedad, no sólo el primero.
+  const colores = [...new Set((claimDe(claims, PROPIEDADES.colores) || []).flatMap(claim => idsDe(claim)).map(nombre).filter(Boolean))];
+  agregar('Colores de fábrica', colores.slice(0, 10).join(', '));
+
+  if (!filas.length) { sinFicha.push(modelo); continue; }
+  fichas[modelo] = {
+    fuente: 'Wikidata (CC0)',
+    wikidata: id,
+    url: `https://www.wikidata.org/wiki/${id}`,
+    actualizado: new Date().toISOString(),
+    filas
+  };
+  console.log(`${modelo.padEnd(26)} ${filas.length} datos`);
 }
 
 fs.mkdirSync(path.dirname(salida), { recursive: true });
 fs.writeFileSync(salida, JSON.stringify({ generado: new Date().toISOString(), fichas }, null, 2));
-console.log(`\ncon ficha: ${Object.keys(fichas).length}/${Object.keys(MODELOS).length}`);
+console.log(`\ncon ficha: ${Object.keys(fichas).length}/${Object.keys(IDENTIFICADORES).length}`);
 console.log(`sin ficha: ${sinFicha.join(', ') || 'ninguno'}`);
 console.log(`escrito: ${salida}`);

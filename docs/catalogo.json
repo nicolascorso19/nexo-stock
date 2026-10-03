@@ -6,7 +6,7 @@
       "currency": "USD",
       "whatsapp": "543517507501"
     },
-    "generatedAt": "2026-10-01T02:19:08.563Z",
+    "generatedAt": "2026-10-03T16:09:34.825Z",
     "products": [
       {
         "id": "p0",
@@ -26,7 +26,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p1",
@@ -46,7 +47,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p2",
@@ -66,7 +68,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p3",
@@ -86,7 +89,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125552915",
+          "url": "https://www.wikidata.org/wiki/Q125552915",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "marzo de 2019"
+            ]
+          ]
+        }
       },
       {
         "id": "p4",
@@ -106,7 +121,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p5",
@@ -126,7 +142,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p6",
@@ -146,7 +163,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p7",
@@ -166,7 +184,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p8",
@@ -186,7 +205,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p9",
@@ -206,7 +226,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p10",
@@ -226,7 +247,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p11",
@@ -246,7 +268,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p12",
@@ -266,7 +289,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p13",
@@ -286,7 +310,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p14",
@@ -306,7 +331,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p15",
@@ -326,7 +352,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p16",
@@ -346,7 +373,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p17",
@@ -366,7 +394,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p18",
@@ -386,7 +415,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p19",
@@ -406,7 +436,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p20",
@@ -426,7 +457,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p21",
@@ -446,7 +478,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p22",
@@ -466,7 +499,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p23",
@@ -486,7 +520,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p24",
@@ -506,7 +541,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p25",
@@ -526,7 +562,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p26",
@@ -546,7 +583,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p27",
@@ -566,7 +604,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p28",
@@ -586,7 +625,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p29",
@@ -606,7 +646,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p30",
@@ -626,7 +667,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p31",
@@ -646,7 +688,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p32",
@@ -666,7 +709,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p33",
@@ -686,7 +730,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p34",
@@ -706,7 +751,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p35",
@@ -726,7 +772,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p36",
@@ -746,7 +793,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p37",
@@ -766,7 +814,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p38",
@@ -786,7 +835,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p39",
@@ -806,7 +856,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p40",
@@ -826,7 +877,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p41",
@@ -846,7 +898,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p42",
@@ -866,7 +919,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p43",
@@ -886,7 +940,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p44",
@@ -906,7 +961,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p45",
@@ -926,7 +982,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p46",
@@ -946,7 +1003,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p47",
@@ -966,7 +1024,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p48",
@@ -986,7 +1045,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p49",
@@ -1006,7 +1066,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p50",
@@ -1026,7 +1087,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p51",
@@ -1046,7 +1108,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p52",
@@ -1066,7 +1129,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p53",
@@ -1086,7 +1150,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p54",
@@ -1106,7 +1171,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p55",
@@ -1126,7 +1192,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p56",
@@ -1146,7 +1213,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p57",
@@ -1166,7 +1234,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p58",
@@ -1186,7 +1255,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p59",
@@ -1206,7 +1276,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p60",
@@ -1226,7 +1297,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p61",
@@ -1246,7 +1318,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p62",
@@ -1266,7 +1339,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p63",
@@ -1286,7 +1360,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p64",
@@ -1306,7 +1381,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p65",
@@ -1326,7 +1402,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p66",
@@ -1346,7 +1423,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p67",
@@ -1366,7 +1444,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p68",
@@ -1386,7 +1465,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p69",
@@ -1406,7 +1486,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p70",
@@ -1426,7 +1507,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p71",
@@ -1446,7 +1528,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p72",
@@ -1466,7 +1549,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p73",
@@ -1486,7 +1570,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p74",
@@ -1506,7 +1591,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p75",
@@ -1526,7 +1612,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p76",
@@ -1546,7 +1633,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p77",
@@ -1566,7 +1654,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p78",
@@ -1586,7 +1675,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p79",
@@ -1606,7 +1696,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p80",
@@ -1626,7 +1717,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p81",
@@ -1646,7 +1738,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p82",
@@ -1666,7 +1759,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p83",
@@ -1686,7 +1780,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p84",
@@ -1706,7 +1801,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p85",
@@ -1726,7 +1822,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p86",
@@ -1746,7 +1843,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p87",
@@ -1766,7 +1864,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p88",
@@ -1786,7 +1885,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p89",
@@ -1806,7 +1906,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p90",
@@ -1826,7 +1927,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p91",
@@ -1846,7 +1948,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p92",
@@ -1866,7 +1969,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p93",
@@ -1886,7 +1990,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p94",
@@ -1906,7 +2011,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p95",
@@ -1926,7 +2032,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p96",
@@ -1946,7 +2053,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p97",
@@ -1966,7 +2074,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p98",
@@ -1986,7 +2095,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p99",
@@ -2006,7 +2116,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p100",
@@ -2026,7 +2137,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p101",
@@ -2046,7 +2158,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p102",
@@ -2066,7 +2179,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p103",
@@ -2086,7 +2200,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p104",
@@ -2106,7 +2221,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p105",
@@ -2126,7 +2242,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p106",
@@ -2146,7 +2263,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p107",
@@ -2166,7 +2284,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q108118280",
+          "url": "https://www.wikidata.org/wiki/Q108118280",
+          "actualizado": "2026-10-03T16:06:31.823Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2021"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.6 mm"
+            ],
+            [
+              "Peso",
+              "173 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "rosa, azul, negro, blanco, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p108",
@@ -2186,7 +2336,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q108118280",
+          "url": "https://www.wikidata.org/wiki/Q108118280",
+          "actualizado": "2026-10-03T16:06:31.823Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2021"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.6 mm"
+            ],
+            [
+              "Peso",
+              "173 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "rosa, azul, negro, blanco, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p109",
@@ -2206,7 +2388,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q108118280",
+          "url": "https://www.wikidata.org/wiki/Q108118280",
+          "actualizado": "2026-10-03T16:06:31.823Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2021"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.6 mm"
+            ],
+            [
+              "Peso",
+              "173 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "rosa, azul, negro, blanco, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p110",
@@ -2226,7 +2440,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q108118280",
+          "url": "https://www.wikidata.org/wiki/Q108118280",
+          "actualizado": "2026-10-03T16:06:31.823Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2021"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.6 mm"
+            ],
+            [
+              "Peso",
+              "173 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "rosa, azul, negro, blanco, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p111",
@@ -2246,7 +2492,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q108118280",
+          "url": "https://www.wikidata.org/wiki/Q108118280",
+          "actualizado": "2026-10-03T16:06:31.823Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2021"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.6 mm"
+            ],
+            [
+              "Peso",
+              "173 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "rosa, azul, negro, blanco, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p112",
@@ -2266,7 +2544,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p113",
@@ -2286,7 +2596,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p114",
@@ -2306,7 +2648,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p115",
@@ -2326,7 +2700,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p116",
@@ -2346,7 +2752,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p117",
@@ -2366,7 +2804,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p118",
@@ -2386,7 +2856,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q110397828",
+          "url": "https://www.wikidata.org/wiki/Q110397828",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2022"
+            ],
+            [
+              "Procesador",
+              "Apple A15 Bionic"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "172 g"
+            ],
+            [
+              "Conector",
+              "Lightning"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, púrpura, azul noche, starlight, Product Red"
+            ]
+          ]
+        }
       },
       {
         "id": "p119",
@@ -2406,7 +2908,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p120",
@@ -2426,7 +2960,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p121",
@@ -2446,7 +3012,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p122",
@@ -2466,7 +3064,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p123",
@@ -2486,7 +3116,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p124",
@@ -2506,7 +3168,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p125",
@@ -2526,7 +3220,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.827Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p126",
@@ -2546,7 +3272,39 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q121992935",
+          "url": "https://www.wikidata.org/wiki/Q121992935",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2023"
+            ],
+            [
+              "Procesador",
+              "Apple A16 Bionic"
+            ],
+            [
+              "Almacenamiento",
+              "128 GB / 256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "147.6 × 71.6 mm"
+            ],
+            [
+              "Peso",
+              "171 g"
+            ],
+            [
+              "Colores de fábrica",
+              "azul, rosa, amarillo, verde, negro"
+            ]
+          ]
+        }
       },
       {
         "id": "p127",
@@ -2566,7 +3324,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p128",
@@ -2586,7 +3356,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p129",
@@ -2606,7 +3388,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p130",
@@ -2626,7 +3420,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p131",
@@ -2646,7 +3452,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p132",
@@ -2666,7 +3484,19 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q125178718",
+          "url": "https://www.wikidata.org/wiki/Q125178718",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ]
+          ]
+        }
       },
       {
         "id": "p133",
@@ -2686,7 +3516,27 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q122442399",
+          "url": "https://www.wikidata.org/wiki/Q122442399",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Procesador",
+              "Apple A17 Pro"
+            ],
+            [
+              "Medidas",
+              "146.6 × 70.6 × 8.25 mm"
+            ],
+            [
+              "Peso",
+              "187 g"
+            ]
+          ]
+        }
       },
       {
         "id": "p134",
@@ -2706,7 +3556,35 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q132559447",
+          "url": "https://www.wikidata.org/wiki/Q132559447",
+          "actualizado": "2026-10-03T16:06:31.828Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "febrero de 2025"
+            ],
+            [
+              "Procesador",
+              "Apple A18"
+            ],
+            [
+              "Medidas",
+              "146.7 × 71.5 × 7.8 mm"
+            ],
+            [
+              "Peso",
+              "167 g"
+            ],
+            [
+              "Colores de fábrica",
+              "negro, blanco"
+            ]
+          ]
+        }
       },
       {
         "id": "p135",
@@ -2726,7 +3604,43 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q136193312",
+          "url": "https://www.wikidata.org/wiki/Q136193312",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2025"
+            ],
+            [
+              "Pantalla",
+              "6.3\""
+            ],
+            [
+              "Procesador",
+              "Apple A19"
+            ],
+            [
+              "Almacenamiento",
+              "256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "149.6 × 71.5 × 7.95 mm"
+            ],
+            [
+              "Peso",
+              "177 g"
+            ],
+            [
+              "Colores de fábrica",
+              "negro, lavanda, sage, azul, blanco"
+            ]
+          ]
+        }
       },
       {
         "id": "p136",
@@ -2746,7 +3660,43 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q136193477",
+          "url": "https://www.wikidata.org/wiki/Q136193477",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2025"
+            ],
+            [
+              "Pantalla",
+              "6.3\""
+            ],
+            [
+              "Procesador",
+              "Apple A19"
+            ],
+            [
+              "Almacenamiento",
+              "256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "150 × 71.9 × 8.75 mm"
+            ],
+            [
+              "Peso",
+              "204 g"
+            ],
+            [
+              "Colores de fábrica",
+              "Cosmic Orange, azul, gris"
+            ]
+          ]
+        }
       },
       {
         "id": "p137",
@@ -2766,7 +3716,43 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q136193477",
+          "url": "https://www.wikidata.org/wiki/Q136193477",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2025"
+            ],
+            [
+              "Pantalla",
+              "6.3\""
+            ],
+            [
+              "Procesador",
+              "Apple A19"
+            ],
+            [
+              "Almacenamiento",
+              "256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "150 × 71.9 × 8.75 mm"
+            ],
+            [
+              "Peso",
+              "204 g"
+            ],
+            [
+              "Colores de fábrica",
+              "Cosmic Orange, azul, gris"
+            ]
+          ]
+        }
       },
       {
         "id": "p138",
@@ -2786,7 +3772,43 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q136203050",
+          "url": "https://www.wikidata.org/wiki/Q136203050",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2025"
+            ],
+            [
+              "Pantalla",
+              "6.9\""
+            ],
+            [
+              "Procesador",
+              "Apple A19"
+            ],
+            [
+              "Almacenamiento",
+              "256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "163.4 × 78 × 8.75 mm"
+            ],
+            [
+              "Peso",
+              "231 g"
+            ],
+            [
+              "Colores de fábrica",
+              "Cosmic Orange, azul, plata"
+            ]
+          ]
+        }
       },
       {
         "id": "p139",
@@ -2806,7 +3828,43 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": {
+          "fuente": "Wikidata (CC0)",
+          "wikidata": "Q136203050",
+          "url": "https://www.wikidata.org/wiki/Q136203050",
+          "actualizado": "2026-10-03T16:06:31.829Z",
+          "filas": [
+            [
+              "Lanzamiento",
+              "septiembre de 2025"
+            ],
+            [
+              "Pantalla",
+              "6.9\""
+            ],
+            [
+              "Procesador",
+              "Apple A19"
+            ],
+            [
+              "Almacenamiento",
+              "256 GB / 512 GB"
+            ],
+            [
+              "Medidas",
+              "163.4 × 78 × 8.75 mm"
+            ],
+            [
+              "Peso",
+              "231 g"
+            ],
+            [
+              "Colores de fábrica",
+              "Cosmic Orange, azul, plata"
+            ]
+          ]
+        }
       },
       {
         "id": "p140",
@@ -2826,7 +3884,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p141",
@@ -2846,7 +3905,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p142",
@@ -2866,7 +3926,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p143",
@@ -2886,7 +3947,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p144",
@@ -2906,7 +3968,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p145",
@@ -2926,7 +3989,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p146",
@@ -2946,7 +4010,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p147",
@@ -2966,7 +4031,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p148",
@@ -2986,7 +4052,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p149",
@@ -3006,7 +4073,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p150",
@@ -3026,7 +4094,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p151",
@@ -3046,7 +4115,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p152",
@@ -3066,7 +4136,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p153",
@@ -3086,7 +4157,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p154",
@@ -3106,7 +4178,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p155",
@@ -3126,7 +4199,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p156",
@@ -3146,7 +4220,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p157",
@@ -3166,7 +4241,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p158",
@@ -3186,7 +4262,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p159",
@@ -3206,7 +4283,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p160",
@@ -3226,7 +4304,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p161",
@@ -3246,7 +4325,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p162",
@@ -3266,7 +4346,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p163",
@@ -3286,7 +4367,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p164",
@@ -3306,7 +4388,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p165",
@@ -3326,7 +4409,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p166",
@@ -3346,7 +4430,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p167",
@@ -3366,7 +4451,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p168",
@@ -3386,7 +4472,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p169",
@@ -3406,7 +4493,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p170",
@@ -3426,7 +4514,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p171",
@@ -3446,7 +4535,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p172",
@@ -3466,7 +4556,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p173",
@@ -3486,7 +4577,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p174",
@@ -3506,7 +4598,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p175",
@@ -3526,7 +4619,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p176",
@@ -3546,7 +4640,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p177",
@@ -3566,7 +4661,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p178",
@@ -3586,7 +4682,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p179",
@@ -3606,7 +4703,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p180",
@@ -3626,7 +4724,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p181",
@@ -3646,7 +4745,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p182",
@@ -3666,7 +4766,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p183",
@@ -3686,7 +4787,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p184",
@@ -3706,7 +4808,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p185",
@@ -3726,7 +4829,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p186",
@@ -3746,7 +4850,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p187",
@@ -3766,7 +4871,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p188",
@@ -3786,7 +4892,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p189",
@@ -3806,7 +4913,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p190",
@@ -3826,7 +4934,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p191",
@@ -3846,7 +4955,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p192",
@@ -3866,7 +4976,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p193",
@@ -3886,7 +4997,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p194",
@@ -3906,7 +5018,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p195",
@@ -3926,7 +5039,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p196",
@@ -3946,7 +5060,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p197",
@@ -3966,7 +5081,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p198",
@@ -3986,7 +5102,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p199",
@@ -4006,7 +5123,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p200",
@@ -4026,7 +5144,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p201",
@@ -4046,7 +5165,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p202",
@@ -4066,7 +5186,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p203",
@@ -4086,7 +5207,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p204",
@@ -4106,7 +5228,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p205",
@@ -4126,7 +5249,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p206",
@@ -4146,7 +5270,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p207",
@@ -4166,7 +5291,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p208",
@@ -4186,7 +5312,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p209",
@@ -4206,7 +5333,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p210",
@@ -4226,7 +5354,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p211",
@@ -4246,7 +5375,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p212",
@@ -4266,7 +5396,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p213",
@@ -4286,7 +5417,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p214",
@@ -4306,7 +5438,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p215",
@@ -4326,7 +5459,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p216",
@@ -4346,7 +5480,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p217",
@@ -4366,7 +5501,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p218",
@@ -4386,7 +5522,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p219",
@@ -4406,7 +5543,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p220",
@@ -4426,7 +5564,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p221",
@@ -4446,7 +5585,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p222",
@@ -4466,7 +5606,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p223",
@@ -4486,7 +5627,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p224",
@@ -4506,7 +5648,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p225",
@@ -4526,7 +5669,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p226",
@@ -4546,7 +5690,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p227",
@@ -4566,7 +5711,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p228",
@@ -4586,7 +5732,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p229",
@@ -4606,7 +5753,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p230",
@@ -4626,7 +5774,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p231",
@@ -4646,7 +5795,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p232",
@@ -4666,7 +5816,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p233",
@@ -4686,7 +5837,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p234",
@@ -4706,7 +5858,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p235",
@@ -4726,7 +5879,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p236",
@@ -4746,7 +5900,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p237",
@@ -4766,7 +5921,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p238",
@@ -4786,7 +5942,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p239",
@@ -4806,7 +5963,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p240",
@@ -4826,7 +5984,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p241",
@@ -4846,7 +6005,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p242",
@@ -4866,7 +6026,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p243",
@@ -4886,7 +6047,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p244",
@@ -4906,7 +6068,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p245",
@@ -4926,7 +6089,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p246",
@@ -4946,7 +6110,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p247",
@@ -4966,7 +6131,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p248",
@@ -4986,7 +6152,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p249",
@@ -5006,7 +6173,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p250",
@@ -5026,7 +6194,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p251",
@@ -5046,7 +6215,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p252",
@@ -5066,7 +6236,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p253",
@@ -5086,7 +6257,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p254",
@@ -5106,7 +6278,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p255",
@@ -5126,7 +6299,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p256",
@@ -5146,7 +6320,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p257",
@@ -5166,7 +6341,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p258",
@@ -5186,7 +6362,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p259",
@@ -5206,7 +6383,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p260",
@@ -5226,7 +6404,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p261",
@@ -5246,7 +6425,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p262",
@@ -5266,7 +6446,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p263",
@@ -5286,7 +6467,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p264",
@@ -5306,7 +6488,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p265",
@@ -5326,7 +6509,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p266",
@@ -5346,7 +6530,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p267",
@@ -5366,7 +6551,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p268",
@@ -5386,7 +6572,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p269",
@@ -5406,7 +6593,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p270",
@@ -5426,7 +6614,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p271",
@@ -5446,7 +6635,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p272",
@@ -5466,7 +6656,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p273",
@@ -5486,7 +6677,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p274",
@@ -5506,7 +6698,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p275",
@@ -5526,7 +6719,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p276",
@@ -5546,7 +6740,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p277",
@@ -5566,7 +6761,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p278",
@@ -5586,7 +6782,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p279",
@@ -5606,7 +6803,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p280",
@@ -5626,7 +6824,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p281",
@@ -5646,7 +6845,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p282",
@@ -5666,7 +6866,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p283",
@@ -5686,7 +6887,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p284",
@@ -5706,7 +6908,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p285",
@@ -5726,7 +6929,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p286",
@@ -5746,7 +6950,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p287",
@@ -5766,7 +6971,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p288",
@@ -5786,7 +6992,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p289",
@@ -5806,7 +7013,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p290",
@@ -5826,7 +7034,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p291",
@@ -5846,7 +7055,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p292",
@@ -5866,7 +7076,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p293",
@@ -5886,7 +7097,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p294",
@@ -5906,7 +7118,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p295",
@@ -5926,7 +7139,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p296",
@@ -5946,7 +7160,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p297",
@@ -5966,7 +7181,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p298",
@@ -5986,7 +7202,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p299",
@@ -6006,7 +7223,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p300",
@@ -6026,7 +7244,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p301",
@@ -6046,7 +7265,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p302",
@@ -6066,7 +7286,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p303",
@@ -6086,7 +7307,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p304",
@@ -6106,7 +7328,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p305",
@@ -6126,7 +7349,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p306",
@@ -6146,7 +7370,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p307",
@@ -6166,7 +7391,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p308",
@@ -6186,7 +7412,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p309",
@@ -6206,7 +7433,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p310",
@@ -6226,7 +7454,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p311",
@@ -6246,7 +7475,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p312",
@@ -6266,7 +7496,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p313",
@@ -6286,7 +7517,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p314",
@@ -6306,7 +7538,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p315",
@@ -6326,7 +7559,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p316",
@@ -6346,7 +7580,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p317",
@@ -6366,7 +7601,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p318",
@@ -6386,7 +7622,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p319",
@@ -6406,7 +7643,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p320",
@@ -6426,7 +7664,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p321",
@@ -6446,7 +7685,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p322",
@@ -6466,7 +7706,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p323",
@@ -6486,7 +7727,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p324",
@@ -6506,7 +7748,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p325",
@@ -6526,7 +7769,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p326",
@@ -6546,7 +7790,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p327",
@@ -6566,7 +7811,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p328",
@@ -6586,7 +7832,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p329",
@@ -6606,7 +7853,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p330",
@@ -6626,7 +7874,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p331",
@@ -6646,7 +7895,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p332",
@@ -6666,7 +7916,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p333",
@@ -6686,7 +7937,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p334",
@@ -6706,7 +7958,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p335",
@@ -6726,7 +7979,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p336",
@@ -6746,7 +8000,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p337",
@@ -6766,7 +8021,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p338",
@@ -6786,7 +8042,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p339",
@@ -6806,7 +8063,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p340",
@@ -6826,7 +8084,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p341",
@@ -6846,7 +8105,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p342",
@@ -6866,7 +8126,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p343",
@@ -6886,7 +8147,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p344",
@@ -6906,7 +8168,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p345",
@@ -6926,7 +8189,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p346",
@@ -6946,7 +8210,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p347",
@@ -6966,7 +8231,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p348",
@@ -6986,7 +8252,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p349",
@@ -7006,7 +8273,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p350",
@@ -7026,7 +8294,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p351",
@@ -7046,7 +8315,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p352",
@@ -7066,7 +8336,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p353",
@@ -7086,7 +8357,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p354",
@@ -7106,7 +8378,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p355",
@@ -7126,7 +8399,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p356",
@@ -7146,7 +8420,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p357",
@@ -7166,7 +8441,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p358",
@@ -7186,7 +8462,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p359",
@@ -7206,7 +8483,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p360",
@@ -7226,7 +8504,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p361",
@@ -7246,7 +8525,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       },
       {
         "id": "p362",
@@ -7266,7 +8546,8 @@
         "price": null,
         "priceKnown": false,
         "promoPrice": null,
-        "stockStatus": "AGOTADO"
+        "stockStatus": "AGOTADO",
+        "ficha": null
       }
     ]
   }
